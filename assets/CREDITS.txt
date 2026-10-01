@@ -1,0 +1,63 @@
+英語之塔 - 美術素材來源
+
+avatars/*.png (刺客/狙擊手/守護者/元素使 4張職業頭像)
+  來源: Kenney "Roguelike Characters" pack (https://kenney.nl/assets/roguelike-characters)
+  作者: Kenney Vleugels (www.kenney.nl)
+  授權: Creative Commons Zero (CC0) — 可自由用於個人與商業專案，標註來源非強制但予以保留
+  取自素材表格座標 (row,col)，pitch=17px/tile=16x16:
+    assassin      -> (9,1)
+    sniper        -> (10,0)
+    guardian      -> (7,1)
+    elementalist  -> (11,1)
+
+weapons/{class}_{rarity}.png (2026-08-07起：4職業 × 4稀有度 = 16張武器icon)
+  來源: "16x16 Weapon RPG Icons" (https://opengameart.org/content/16x16-weapon-rpg-icons)
+  授權: Creative Commons Zero (CC0)
+  這包本身就內建 bronze/iron/steel/gold 四張材質色階表(每張座標相同)，2026-08-06版本
+  只用了iron這一階(所有稀有度共用同一張圖，被小朋友抱怨「每把劍長得一樣」)。
+  2026-08-07改成四階都切出來，依遊戲內稀有度對應：
+    普通=bronze　稀有=iron　史詩=steel　傳說=gold
+  取自 {bronze,iron,steel,gold}-weapons.png 座標 (row,col)，pitch=17px/tile=16x16無邊距:
+    assassin      -> (3,0)  短劍
+    sniper        -> (0,20) 波紋劍(當作長距離精準武器代表)
+    guardian      -> (10,1) 戰斧
+    elementalist  -> (1,18) 綠色法杖
+  舊的 assassin.png/sniper.png/guardian.png/elementalist.png(單一iron階)已不再被index.html
+  引用，保留檔案本身無害但可視情況日後清掉。
+
+gear/scope.png, gear/charm.png, gear/emblem.png (瞄準鏡/幸運符/徽章)
+  來源: Kenney "Roguelike/RPG pack" (https://kenney.nl/assets/roguelike-rpg-pack)
+  授權: CC0
+  取自 roguelikeSheet_transparent.png 座標 (row,col)，pitch=17px/tile=16x16:
+    scope   -> (3,31)  雙筒望遠鏡
+    charm   -> (9,32)  寶石
+    emblem  -> (0,52)  旗幟
+
+gear/armor.png (護甲)
+  來源: "CC0 Shield Icons" (https://opengameart.org/content/cc0-shield-icons)，kite_shield_05.png
+  授權: CC0
+
+⚠️ grip(握把)目前沒有找到貼切的免費素材，刻意留白用原本的emoji(⚡)，不硬塞不相關的圖。
+
+monsters/*.png (16個妖魔屬性家族的寵物/圖鑑代表圖)
+  來源: "32x32 Pixel Art Creatures Volume 3" (https://opengameart.org/content/32x32-pixel-art-creatures-volume-3)
+  授權: Creative Commons Zero (CC0)
+  用連通元件(connected-component)分析從整張素材表自動偵測、切出33隻小怪各自的
+  邊界框，再依外觀/主題挑16隻對應16個屬性家族(電/火/暗影/機械/毒/冰/風/石/水/光/
+  幻影/巨獸/蟲/骨/藤蔓/鏽蝕)，只用在「已馴服寵物」相關畫面(首頁出戰欄/戰鬥浮動
+  圖示/寵物牧場/能力總覽/終章遊行)，不影響100層各自獨立的樓層怪物emoji(FLOOR_MONSTERS
+  跟MONSTER_FAMILIES是兩套不同機制,圖鑑本身走前者,這次沒有動)。
+
+bgm/calm.mp3, bgm/explore.mp3, bgm/battle.mp3 (2026-08-07起：首頁/闖塔/魔王戰三種情境背景音樂)
+  來源: Kevin MacLeod (incompetech.com)
+    calm    <- "Wallpaper" (https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wallpaper.mp3)
+    explore <- "8bit Dungeon Level" (https://incompetech.com/music/royalty-free/mp3-royaltyfree/8bit%20Dungeon%20Level.mp3)
+    battle  <- "8bit Dungeon Boss" (https://incompetech.com/music/royalty-free/mp3-royaltyfree/8bit%20Dungeon%20Boss.mp3)
+  授權: Creative Commons Attribution 4.0 (CC-BY 4.0) — 標註來源是義務不是選項，本頁本身
+    就是標註。App內若做「關於/版權」頁面要一併列出「Music by Kevin MacLeod (incompetech.com)」。
+  原始檔是2.5-4分鐘的完整曲目、320kbps、單檔6-9MB；用ffmpeg裁成45秒片段(掐頭去尾避開
+  intro，首尾各1-3秒淡入淡出降低循環接縫的違和感)、降到96kbps單檔~530KB，供<audio loop>
+  循環播放。2026-08-06版本原本是純Web Audio單音旋律合成(小朋友抱怨很難聽)，這次直接換真
+  的編曲音樂檔取代，不再用towerSfx那套振盪器合成BGM(命中/連擊等音效仍是合成,沒有動)。
+
+⚠️ 不含任何 Minecraft/Mojang 版權素材。
