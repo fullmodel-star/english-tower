@@ -1,0 +1,48 @@
+/* 活潑層 engine：game（927 英語之塔、928 文法勇者：遊戲外框套法）
+   來源：packages/lively/engines/game.css → 927／928 的 lively-engine.css
+   兩支都是「整支深色」的 RPG（不跟系統淺深色走），有自己的像素美術、地圖與戰鬥畫面。
+   作業簿版只套外框（頁首頁籤、選單、城鎮、家族按鈕的線條圖示與外觀），遊戲畫面一律不動：
+     · 不鋪方格紙（core 會在 html body 鋪底紋 → 這裡關掉）
+     · 色票固定用家族深色（淺色系統下 core 的白卡會變成深色遊戲裡的一塊白 → 這裡蓋回深色）
+     · 927 的品牌頁尾掛著 .rl-appbar（給品牌稽核認格式），core 會把它塗成淡主色底＋山丘 → 還原
+     · 927 的「安裝到桌面」刻意是框線次要鈕（2026-10-12 體驗評分），core 會把它改成主色鈕 → 還原
+   選擇器多一層 :not([data-lv-x])：權重要壓過 lively-theme.css 的 html:not([data-theme="dark"]) body。 */
+
+/* ---------- 色票：固定家族深色（兩支的遊戲面板本來就是岩藍深色） ---------- */
+html:not([data-lv-x]):not([data-lv-y]),html:not([data-lv-x]):not([data-lv-y]) body{
+  --lv-paper:#141E2B; --lv-card:#1B2635; --lv-line:#2E3A4B; --lv-text:#E8EDF1; --lv-muted:#9AA7B2;
+  --lv-soft:#233247; --lv-soft2:#2E3A4B; --lv-acc:#F0B76E;
+  --lv-ok:#6FD39C; --lv-no:#FF9A8F; --lv-sun:#FFC960; --lv-sun-soft:#3A2C12;
+  --lv-pen:#FF7D70; --lv-rule:#4A5670; --lv-grid:transparent;
+}
+
+/* ---------- 不鋪方格紙：遊戲背景原樣 ---------- */
+html:not([data-lv-x]) body{background-image:none}
+
+/* ---------- 線條圖示 ---------- */
+/* 927 首頁選單（收藏與成長／日常修行／系統設定）：圖示在字的上方，跟原本 emoji 一樣大 */
+.navBtn .navIcon.lv-has-line{display:flex;align-items:center;justify-content:center;height:1.6rem}
+.navBtn .navIcon .lv-line{width:1.45rem;height:1.45rem;stroke-width:1.8}
+.navBtn:not(:disabled) .navIcon .lv-line{color:var(--gold,#DE9A45)}
+/* 927 音樂開關 */
+button[title="開關背景音樂"].lv-has-line{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:40px}
+button[title="開關背景音樂"] .lv-line{width:20px;height:20px}
+/* 927 頁首頁籤、撤退鈕；928 ⬅ 入口、地圖頁籤、怎麼玩、城鎮選單：文字前面的小圖示 */
+.towerTab .lv-line-inline,#retreatBtn .lv-line-inline,.hubbtn .lv-line-inline,#wnav .lv-line-inline,#b-how .lv-line-inline{margin:0 .3em 0 0}
+.towerTab[aria-current="page"] .lv-line-inline,#wnav button[aria-current="page"] .lv-line-inline{color:var(--gold,#DE9A45)}
+#v-town button.townbtn > span:first-child{display:inline-flex;align-items:center;gap:.45em}
+#v-town button.townbtn > span:first-child > .lv-line-inline{margin:0;width:1.25em;height:1.25em;color:var(--gold,#DE9A45);flex:none}
+/* 928 道具店：品名在第一個 span 裡、下面還有一行說明 → 圖示靠上 */
+#v-town button.townbtn > span:first-child:has(br){align-items:flex-start;flex-wrap:wrap}
+
+/* ---------- 家族按鈕（LINE／回報）：core 給的同一種外觀，顏色跟著深色面板 ---------- */
+.towerBar .lineShareFab,.towerBar .reportFab{width:42px;height:42px;border-radius:13px;background:var(--lv-card);color:var(--lv-text);border:0;
+  box-shadow:0 0 0 1.5px var(--lv-line),0 3px 0 var(--lv-line)}
+.towerBar .reportFab{color:var(--lv-muted)}
+
+/* ---------- 927 品牌頁尾：還原（core 的 .rl-appbar 淡主色底＋山丘不套在這裡） ---------- */
+#rdgFoot.rl-appbar{background:transparent!important;overflow:visible;color:inherit}
+#rdgFoot.rl-appbar::after{content:none;display:none}
+
+/* ---------- 927 安裝到桌面：維持框線次要鈕（core 會改成主色鈕） ---------- */
+html body #rdgInstallBtn{background:transparent!important;color:inherit!important;border:1px solid var(--line,#52748A)!important;box-shadow:none!important}
