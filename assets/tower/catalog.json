@@ -1,0 +1,2765 @@
+[
+  {
+    "id": "hero-assassin-0",
+    "name": "刺客・初始",
+    "type": "hero",
+    "src": "assets/tower/hero-assassin-0.svg",
+    "cls": "assassin",
+    "stage": 0
+  },
+  {
+    "id": "hero-assassin-1",
+    "name": "刺客・覺醒",
+    "type": "hero",
+    "src": "assets/tower/hero-assassin-1.svg",
+    "cls": "assassin",
+    "stage": 1
+  },
+  {
+    "id": "hero-assassin-2",
+    "name": "刺客・極型",
+    "type": "hero",
+    "src": "assets/tower/hero-assassin-2.svg",
+    "cls": "assassin",
+    "stage": 2
+  },
+  {
+    "id": "hero-sniper-0",
+    "name": "狙擊手・初始",
+    "type": "hero",
+    "src": "assets/tower/hero-sniper-0.svg",
+    "cls": "sniper",
+    "stage": 0
+  },
+  {
+    "id": "hero-sniper-1",
+    "name": "狙擊手・覺醒",
+    "type": "hero",
+    "src": "assets/tower/hero-sniper-1.svg",
+    "cls": "sniper",
+    "stage": 1
+  },
+  {
+    "id": "hero-sniper-2",
+    "name": "狙擊手・極型",
+    "type": "hero",
+    "src": "assets/tower/hero-sniper-2.svg",
+    "cls": "sniper",
+    "stage": 2
+  },
+  {
+    "id": "hero-guardian-0",
+    "name": "守護者・初始",
+    "type": "hero",
+    "src": "assets/tower/hero-guardian-0.svg",
+    "cls": "guardian",
+    "stage": 0
+  },
+  {
+    "id": "hero-guardian-1",
+    "name": "守護者・覺醒",
+    "type": "hero",
+    "src": "assets/tower/hero-guardian-1.svg",
+    "cls": "guardian",
+    "stage": 1
+  },
+  {
+    "id": "hero-guardian-2",
+    "name": "守護者・極型",
+    "type": "hero",
+    "src": "assets/tower/hero-guardian-2.svg",
+    "cls": "guardian",
+    "stage": 2
+  },
+  {
+    "id": "hero-elementalist-0",
+    "name": "元素使・初始",
+    "type": "hero",
+    "src": "assets/tower/hero-elementalist-0.svg",
+    "cls": "elementalist",
+    "stage": 0
+  },
+  {
+    "id": "hero-elementalist-1",
+    "name": "元素使・覺醒",
+    "type": "hero",
+    "src": "assets/tower/hero-elementalist-1.svg",
+    "cls": "elementalist",
+    "stage": 1
+  },
+  {
+    "id": "hero-elementalist-2",
+    "name": "元素使・極型",
+    "type": "hero",
+    "src": "assets/tower/hero-elementalist-2.svg",
+    "cls": "elementalist",
+    "stage": 2
+  },
+  {
+    "id": "monster-1",
+    "name": "竹葉毛蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-1.svg",
+    "floor": 1,
+    "family": "elec",
+    "boss": false,
+    "shape": "worm"
+  },
+  {
+    "id": "monster-2",
+    "name": "泥沼跳蛙",
+    "type": "monster",
+    "src": "assets/tower/monster-2.svg",
+    "floor": 2,
+    "family": "flame",
+    "boss": false,
+    "shape": "frog"
+  },
+  {
+    "id": "monster-3",
+    "name": "夜行梟",
+    "type": "monster",
+    "src": "assets/tower/monster-3.svg",
+    "floor": 3,
+    "family": "shadow",
+    "boss": false,
+    "shape": "owl"
+  },
+  {
+    "id": "monster-4",
+    "name": "竹蜂群",
+    "type": "monster",
+    "src": "assets/tower/monster-4.svg",
+    "floor": 4,
+    "family": "mech",
+    "boss": false,
+    "shape": "bee"
+  },
+  {
+    "id": "monster-5",
+    "name": "苔蘚龜",
+    "type": "monster",
+    "src": "assets/tower/monster-5.svg",
+    "floor": 5,
+    "family": "venom",
+    "boss": false,
+    "shape": "turtle"
+  },
+  {
+    "id": "monster-6",
+    "name": "螢光鼠",
+    "type": "monster",
+    "src": "assets/tower/monster-6.svg",
+    "floor": 6,
+    "family": "frost",
+    "boss": false,
+    "shape": "mouse"
+  },
+  {
+    "id": "monster-7",
+    "name": "幽光蛾",
+    "type": "monster",
+    "src": "assets/tower/monster-7.svg",
+    "floor": 7,
+    "family": "wind",
+    "boss": false,
+    "shape": "moth"
+  },
+  {
+    "id": "monster-8",
+    "name": "沼澤水蛭",
+    "type": "monster",
+    "src": "assets/tower/monster-8.svg",
+    "floor": 8,
+    "family": "stone",
+    "boss": false,
+    "shape": "worm"
+  },
+  {
+    "id": "monster-9",
+    "name": "竹林狐",
+    "type": "monster",
+    "src": "assets/tower/monster-9.svg",
+    "floor": 9,
+    "family": "water",
+    "boss": false,
+    "shape": "fox"
+  },
+  {
+    "id": "monster-10",
+    "name": "迷霧竹林・古樹守衛",
+    "type": "monster",
+    "src": "assets/tower/monster-10.svg",
+    "floor": 10,
+    "family": "light",
+    "boss": true,
+    "shape": "tree"
+  },
+  {
+    "id": "monster-11",
+    "name": "鏽蝕礦鼠",
+    "type": "monster",
+    "src": "assets/tower/monster-11.svg",
+    "floor": 11,
+    "family": "phantom",
+    "boss": false,
+    "shape": "mouse"
+  },
+  {
+    "id": "monster-12",
+    "name": "坑道蝙蝠",
+    "type": "monster",
+    "src": "assets/tower/monster-12.svg",
+    "floor": 12,
+    "family": "beast",
+    "boss": false,
+    "shape": "bat"
+  },
+  {
+    "id": "monster-13",
+    "name": "礦坑蜘蛛",
+    "type": "monster",
+    "src": "assets/tower/monster-13.svg",
+    "floor": 13,
+    "family": "bug",
+    "boss": false,
+    "shape": "spider"
+  },
+  {
+    "id": "monster-14",
+    "name": "鏽甲蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-14.svg",
+    "floor": 14,
+    "family": "bone",
+    "boss": false,
+    "shape": "beetle"
+  },
+  {
+    "id": "monster-15",
+    "name": "熔渣怪",
+    "type": "monster",
+    "src": "assets/tower/monster-15.svg",
+    "floor": 15,
+    "family": "vine",
+    "boss": false,
+    "shape": "flame"
+  },
+  {
+    "id": "monster-16",
+    "name": "坑道幽魂",
+    "type": "monster",
+    "src": "assets/tower/monster-16.svg",
+    "floor": 16,
+    "family": "rust",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-17",
+    "name": "鏽蝕骷髏兵",
+    "type": "monster",
+    "src": "assets/tower/monster-17.svg",
+    "floor": 17,
+    "family": "elec",
+    "boss": false,
+    "shape": "skull"
+  },
+  {
+    "id": "monster-18",
+    "name": "巨顎蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-18.svg",
+    "floor": 18,
+    "family": "flame",
+    "boss": false,
+    "shape": "beetle"
+  },
+  {
+    "id": "monster-19",
+    "name": "深坑毒蠍",
+    "type": "monster",
+    "src": "assets/tower/monster-19.svg",
+    "floor": 19,
+    "family": "shadow",
+    "boss": false,
+    "shape": "scorpion"
+  },
+  {
+    "id": "monster-20",
+    "name": "礦脈爆裂魔像",
+    "type": "monster",
+    "src": "assets/tower/monster-20.svg",
+    "floor": 20,
+    "family": "mech",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-21",
+    "name": "鏈鎖囚魂",
+    "type": "monster",
+    "src": "assets/tower/monster-21.svg",
+    "floor": 21,
+    "family": "venom",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-22",
+    "name": "崩壁石怪",
+    "type": "monster",
+    "src": "assets/tower/monster-22.svg",
+    "floor": 22,
+    "family": "frost",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-23",
+    "name": "深井蟒蛇",
+    "type": "monster",
+    "src": "assets/tower/monster-23.svg",
+    "floor": 23,
+    "family": "wind",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-24",
+    "name": "鐵鏽巨蟹",
+    "type": "monster",
+    "src": "assets/tower/monster-24.svg",
+    "floor": 24,
+    "family": "stone",
+    "boss": false,
+    "shape": "crab"
+  },
+  {
+    "id": "monster-25",
+    "name": "廢棄礦坑・熔核巨獸",
+    "type": "monster",
+    "src": "assets/tower/monster-25.svg",
+    "floor": 25,
+    "family": "water",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-26",
+    "name": "沙漠毒蠍",
+    "type": "monster",
+    "src": "assets/tower/monster-26.svg",
+    "floor": 26,
+    "family": "light",
+    "boss": false,
+    "shape": "scorpion"
+  },
+  {
+    "id": "monster-27",
+    "name": "焰蜥蜴",
+    "type": "monster",
+    "src": "assets/tower/monster-27.svg",
+    "floor": 27,
+    "family": "phantom",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-28",
+    "name": "荒漠鷲",
+    "type": "monster",
+    "src": "assets/tower/monster-28.svg",
+    "floor": 28,
+    "family": "beast",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-29",
+    "name": "沙塵旋魔",
+    "type": "monster",
+    "src": "assets/tower/monster-29.svg",
+    "floor": 29,
+    "family": "bug",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-30",
+    "name": "焦土蟻后",
+    "type": "monster",
+    "src": "assets/tower/monster-30.svg",
+    "floor": 30,
+    "family": "bone",
+    "boss": true,
+    "shape": "beetle"
+  },
+  {
+    "id": "monster-31",
+    "name": "炙陽蝙蝠",
+    "type": "monster",
+    "src": "assets/tower/monster-31.svg",
+    "floor": 31,
+    "family": "vine",
+    "boss": false,
+    "shape": "bat"
+  },
+  {
+    "id": "monster-32",
+    "name": "熔岩龜",
+    "type": "monster",
+    "src": "assets/tower/monster-32.svg",
+    "floor": 32,
+    "family": "rust",
+    "boss": false,
+    "shape": "turtle"
+  },
+  {
+    "id": "monster-33",
+    "name": "火鬣狗",
+    "type": "monster",
+    "src": "assets/tower/monster-33.svg",
+    "floor": 33,
+    "family": "elec",
+    "boss": false,
+    "shape": "wolf"
+  },
+  {
+    "id": "monster-34",
+    "name": "荒原禿鷹",
+    "type": "monster",
+    "src": "assets/tower/monster-34.svg",
+    "floor": 34,
+    "family": "flame",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-35",
+    "name": "灼骨戰士",
+    "type": "monster",
+    "src": "assets/tower/monster-35.svg",
+    "floor": 35,
+    "family": "shadow",
+    "boss": false,
+    "shape": "skull"
+  },
+  {
+    "id": "monster-36",
+    "name": "沙丘巨蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-36.svg",
+    "floor": 36,
+    "family": "mech",
+    "boss": false,
+    "shape": "worm"
+  },
+  {
+    "id": "monster-37",
+    "name": "焰紋毒蛇",
+    "type": "monster",
+    "src": "assets/tower/monster-37.svg",
+    "floor": 37,
+    "family": "venom",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-38",
+    "name": "荒野狼群",
+    "type": "monster",
+    "src": "assets/tower/monster-38.svg",
+    "floor": 38,
+    "family": "frost",
+    "boss": false,
+    "shape": "wolf"
+  },
+  {
+    "id": "monster-39",
+    "name": "熾焱魔像",
+    "type": "monster",
+    "src": "assets/tower/monster-39.svg",
+    "floor": 39,
+    "family": "wind",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-40",
+    "name": "焦骸法師",
+    "type": "monster",
+    "src": "assets/tower/monster-40.svg",
+    "floor": 40,
+    "family": "stone",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-41",
+    "name": "沙塵鬼影",
+    "type": "monster",
+    "src": "assets/tower/monster-41.svg",
+    "floor": 41,
+    "family": "water",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-42",
+    "name": "灼熱甲蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-42.svg",
+    "floor": 42,
+    "family": "light",
+    "boss": false,
+    "shape": "beetle"
+  },
+  {
+    "id": "monster-43",
+    "name": "荒原巨蠍",
+    "type": "monster",
+    "src": "assets/tower/monster-43.svg",
+    "floor": 43,
+    "family": "phantom",
+    "boss": false,
+    "shape": "scorpion"
+  },
+  {
+    "id": "monster-44",
+    "name": "熔沙蜘蛛",
+    "type": "monster",
+    "src": "assets/tower/monster-44.svg",
+    "floor": 44,
+    "family": "beast",
+    "boss": false,
+    "shape": "spider"
+  },
+  {
+    "id": "monster-45",
+    "name": "燃燒荒原・熔岩巨龍",
+    "type": "monster",
+    "src": "assets/tower/monster-45.svg",
+    "floor": 45,
+    "family": "bug",
+    "boss": true,
+    "shape": "dragon"
+  },
+  {
+    "id": "monster-46",
+    "name": "機械蜂群",
+    "type": "monster",
+    "src": "assets/tower/monster-46.svg",
+    "floor": 46,
+    "family": "bone",
+    "boss": false,
+    "shape": "bee"
+  },
+  {
+    "id": "monster-47",
+    "name": "鋼羽鴉",
+    "type": "monster",
+    "src": "assets/tower/monster-47.svg",
+    "floor": 47,
+    "family": "vine",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-48",
+    "name": "浮空砲台",
+    "type": "monster",
+    "src": "assets/tower/monster-48.svg",
+    "floor": 48,
+    "family": "rust",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-49",
+    "name": "齒輪魔像",
+    "type": "monster",
+    "src": "assets/tower/monster-49.svg",
+    "floor": 49,
+    "family": "elec",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-50",
+    "name": "電磁蝙蝠",
+    "type": "monster",
+    "src": "assets/tower/monster-50.svg",
+    "floor": 50,
+    "family": "flame",
+    "boss": true,
+    "shape": "bat"
+  },
+  {
+    "id": "monster-51",
+    "name": "鋼刺蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-51.svg",
+    "floor": 51,
+    "family": "shadow",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-52",
+    "name": "風壓獵鷹",
+    "type": "monster",
+    "src": "assets/tower/monster-52.svg",
+    "floor": 52,
+    "family": "mech",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-53",
+    "name": "空艦幽魂",
+    "type": "monster",
+    "src": "assets/tower/monster-53.svg",
+    "floor": 53,
+    "family": "venom",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-54",
+    "name": "鏈鋸傀儡",
+    "type": "monster",
+    "src": "assets/tower/monster-54.svg",
+    "floor": 54,
+    "family": "frost",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-55",
+    "name": "高壓電獸",
+    "type": "monster",
+    "src": "assets/tower/monster-55.svg",
+    "floor": 55,
+    "family": "wind",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-56",
+    "name": "浮游水母",
+    "type": "monster",
+    "src": "assets/tower/monster-56.svg",
+    "floor": 56,
+    "family": "stone",
+    "boss": false,
+    "shape": "jelly"
+  },
+  {
+    "id": "monster-57",
+    "name": "鋼骨巨蟒",
+    "type": "monster",
+    "src": "assets/tower/monster-57.svg",
+    "floor": 57,
+    "family": "water",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-58",
+    "name": "齒輪蜘蛛",
+    "type": "monster",
+    "src": "assets/tower/monster-58.svg",
+    "floor": 58,
+    "family": "light",
+    "boss": false,
+    "shape": "spider"
+  },
+  {
+    "id": "monster-59",
+    "name": "熔核守衛",
+    "type": "monster",
+    "src": "assets/tower/monster-59.svg",
+    "floor": 59,
+    "family": "phantom",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-60",
+    "name": "反重力魔像",
+    "type": "monster",
+    "src": "assets/tower/monster-60.svg",
+    "floor": 60,
+    "family": "beast",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-61",
+    "name": "迴路殭屍",
+    "type": "monster",
+    "src": "assets/tower/monster-61.svg",
+    "floor": 61,
+    "family": "bug",
+    "boss": false,
+    "shape": "zombie"
+  },
+  {
+    "id": "monster-62",
+    "name": "鋼翼獵鷹",
+    "type": "monster",
+    "src": "assets/tower/monster-62.svg",
+    "floor": 62,
+    "family": "bone",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-63",
+    "name": "電磁礦鼠",
+    "type": "monster",
+    "src": "assets/tower/monster-63.svg",
+    "floor": 63,
+    "family": "vine",
+    "boss": false,
+    "shape": "mouse"
+  },
+  {
+    "id": "monster-64",
+    "name": "要塞哨兵",
+    "type": "monster",
+    "src": "assets/tower/monster-64.svg",
+    "floor": 64,
+    "family": "rust",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-65",
+    "name": "鏽蝕巨砲",
+    "type": "monster",
+    "src": "assets/tower/monster-65.svg",
+    "floor": 65,
+    "family": "elec",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-66",
+    "name": "風暴使者",
+    "type": "monster",
+    "src": "assets/tower/monster-66.svg",
+    "floor": 66,
+    "family": "flame",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-67",
+    "name": "鋼鐵蜂后",
+    "type": "monster",
+    "src": "assets/tower/monster-67.svg",
+    "floor": 67,
+    "family": "shadow",
+    "boss": false,
+    "shape": "bee"
+  },
+  {
+    "id": "monster-68",
+    "name": "磁力巨蟹",
+    "type": "monster",
+    "src": "assets/tower/monster-68.svg",
+    "floor": 68,
+    "family": "mech",
+    "boss": false,
+    "shape": "crab"
+  },
+  {
+    "id": "monster-69",
+    "name": "浮空巨蟒",
+    "type": "monster",
+    "src": "assets/tower/monster-69.svg",
+    "floor": 69,
+    "family": "venom",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-70",
+    "name": "浮空要塞遺跡・機械君主",
+    "type": "monster",
+    "src": "assets/tower/monster-70.svg",
+    "floor": 70,
+    "family": "frost",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-71",
+    "name": "虛空觸手",
+    "type": "monster",
+    "src": "assets/tower/monster-71.svg",
+    "floor": 71,
+    "family": "wind",
+    "boss": false,
+    "shape": "hand"
+  },
+  {
+    "id": "monster-72",
+    "name": "扭曲幽靈",
+    "type": "monster",
+    "src": "assets/tower/monster-72.svg",
+    "floor": 72,
+    "family": "stone",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-73",
+    "name": "深淵眼魔",
+    "type": "monster",
+    "src": "assets/tower/monster-73.svg",
+    "floor": 73,
+    "family": "water",
+    "boss": false,
+    "shape": "eye"
+  },
+  {
+    "id": "monster-74",
+    "name": "裂界蝙蝠",
+    "type": "monster",
+    "src": "assets/tower/monster-74.svg",
+    "floor": 74,
+    "family": "light",
+    "boss": false,
+    "shape": "bat"
+  },
+  {
+    "id": "monster-75",
+    "name": "暗影狼",
+    "type": "monster",
+    "src": "assets/tower/monster-75.svg",
+    "floor": 75,
+    "family": "phantom",
+    "boss": false,
+    "shape": "wolf"
+  },
+  {
+    "id": "monster-76",
+    "name": "虛空蜘蛛",
+    "type": "monster",
+    "src": "assets/tower/monster-76.svg",
+    "floor": 76,
+    "family": "beast",
+    "boss": false,
+    "shape": "spider"
+  },
+  {
+    "id": "monster-77",
+    "name": "扭曲傀儡",
+    "type": "monster",
+    "src": "assets/tower/monster-77.svg",
+    "floor": 77,
+    "family": "bug",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-78",
+    "name": "深淵巨蟒",
+    "type": "monster",
+    "src": "assets/tower/monster-78.svg",
+    "floor": 78,
+    "family": "bone",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-79",
+    "name": "裂空使者",
+    "type": "monster",
+    "src": "assets/tower/monster-79.svg",
+    "floor": 79,
+    "family": "vine",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-80",
+    "name": "暗物質巨獸",
+    "type": "monster",
+    "src": "assets/tower/monster-80.svg",
+    "floor": 80,
+    "family": "rust",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-81",
+    "name": "虛空鴉群",
+    "type": "monster",
+    "src": "assets/tower/monster-81.svg",
+    "floor": 81,
+    "family": "elec",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-82",
+    "name": "深淵觸角怪",
+    "type": "monster",
+    "src": "assets/tower/monster-82.svg",
+    "floor": 82,
+    "family": "flame",
+    "boss": false,
+    "shape": "octopus"
+  },
+  {
+    "id": "monster-83",
+    "name": "扭曲法師",
+    "type": "monster",
+    "src": "assets/tower/monster-83.svg",
+    "floor": 83,
+    "family": "shadow",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-84",
+    "name": "裂界巨蟹",
+    "type": "monster",
+    "src": "assets/tower/monster-84.svg",
+    "floor": 84,
+    "family": "mech",
+    "boss": false,
+    "shape": "crab"
+  },
+  {
+    "id": "monster-85",
+    "name": "暗影蠍",
+    "type": "monster",
+    "src": "assets/tower/monster-85.svg",
+    "floor": 85,
+    "family": "venom",
+    "boss": false,
+    "shape": "scorpion"
+  },
+  {
+    "id": "monster-86",
+    "name": "虛空巨蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-86.svg",
+    "floor": 86,
+    "family": "frost",
+    "boss": false,
+    "shape": "worm"
+  },
+  {
+    "id": "monster-87",
+    "name": "深淵守門者",
+    "type": "monster",
+    "src": "assets/tower/monster-87.svg",
+    "floor": 87,
+    "family": "wind",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-88",
+    "name": "扭曲巨蛇",
+    "type": "monster",
+    "src": "assets/tower/monster-88.svg",
+    "floor": 88,
+    "family": "stone",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-89",
+    "name": "裂界幽魂",
+    "type": "monster",
+    "src": "assets/tower/monster-89.svg",
+    "floor": 89,
+    "family": "water",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-90",
+    "name": "深淵裂界・虛空君主",
+    "type": "monster",
+    "src": "assets/tower/monster-90.svg",
+    "floor": 90,
+    "family": "light",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-91",
+    "name": "雲海巨蛇",
+    "type": "monster",
+    "src": "assets/tower/monster-91.svg",
+    "floor": 91,
+    "family": "phantom",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-92",
+    "name": "天空巨鷹",
+    "type": "monster",
+    "src": "assets/tower/monster-92.svg",
+    "floor": 92,
+    "family": "beast",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-93",
+    "name": "龍息幼龍",
+    "type": "monster",
+    "src": "assets/tower/monster-93.svg",
+    "floor": 93,
+    "family": "bug",
+    "boss": false,
+    "shape": "dragon"
+  },
+  {
+    "id": "monster-94",
+    "name": "聖域守衛",
+    "type": "monster",
+    "src": "assets/tower/monster-94.svg",
+    "floor": 94,
+    "family": "bone",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-95",
+    "name": "雷雲巨獸",
+    "type": "monster",
+    "src": "assets/tower/monster-95.svg",
+    "floor": 95,
+    "family": "vine",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-96",
+    "name": "天穹使者",
+    "type": "monster",
+    "src": "assets/tower/monster-96.svg",
+    "floor": 96,
+    "family": "rust",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-97",
+    "name": "龍鱗衛兵",
+    "type": "monster",
+    "src": "assets/tower/monster-97.svg",
+    "floor": 97,
+    "family": "elec",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-98",
+    "name": "聖光巨獅",
+    "type": "monster",
+    "src": "assets/tower/monster-98.svg",
+    "floor": 98,
+    "family": "flame",
+    "boss": false,
+    "shape": "lion"
+  },
+  {
+    "id": "monster-99",
+    "name": "天空鯨",
+    "type": "monster",
+    "src": "assets/tower/monster-99.svg",
+    "floor": 99,
+    "family": "shadow",
+    "boss": false,
+    "shape": "whale"
+  },
+  {
+    "id": "monster-100",
+    "name": "王座之間・系統原初支配者",
+    "type": "monster",
+    "src": "assets/tower/monster-100.svg",
+    "floor": 100,
+    "family": "mech",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-101",
+    "name": "晨露鹿靈",
+    "type": "monster",
+    "src": "assets/tower/monster-101.svg",
+    "floor": 101,
+    "family": "venom",
+    "boss": false,
+    "shape": "deer"
+  },
+  {
+    "id": "monster-102",
+    "name": "藤蔓織影",
+    "type": "monster",
+    "src": "assets/tower/monster-102.svg",
+    "floor": 102,
+    "family": "frost",
+    "boss": false,
+    "shape": "vine"
+  },
+  {
+    "id": "monster-103",
+    "name": "銀羽夜梟",
+    "type": "monster",
+    "src": "assets/tower/monster-103.svg",
+    "floor": 103,
+    "family": "wind",
+    "boss": false,
+    "shape": "owl"
+  },
+  {
+    "id": "monster-104",
+    "name": "苔石巨龜",
+    "type": "monster",
+    "src": "assets/tower/monster-104.svg",
+    "floor": 104,
+    "family": "stone",
+    "boss": false,
+    "shape": "turtle"
+  },
+  {
+    "id": "monster-105",
+    "name": "風語狐群",
+    "type": "monster",
+    "src": "assets/tower/monster-105.svg",
+    "floor": 105,
+    "family": "water",
+    "boss": false,
+    "shape": "fox"
+  },
+  {
+    "id": "monster-106",
+    "name": "荊棘熊怪",
+    "type": "monster",
+    "src": "assets/tower/monster-106.svg",
+    "floor": 106,
+    "family": "light",
+    "boss": false,
+    "shape": "bear"
+  },
+  {
+    "id": "monster-107",
+    "name": "古樹寄生蟲",
+    "type": "monster",
+    "src": "assets/tower/monster-107.svg",
+    "floor": 107,
+    "family": "phantom",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-108",
+    "name": "月光蝶群",
+    "type": "monster",
+    "src": "assets/tower/monster-108.svg",
+    "floor": 108,
+    "family": "beast",
+    "boss": false,
+    "shape": "moth"
+  },
+  {
+    "id": "monster-109",
+    "name": "深林巨蟒",
+    "type": "monster",
+    "src": "assets/tower/monster-109.svg",
+    "floor": 109,
+    "family": "bug",
+    "boss": false,
+    "shape": "snake"
+  },
+  {
+    "id": "monster-110",
+    "name": "翠鳴森林・萬靈古樹王",
+    "type": "monster",
+    "src": "assets/tower/monster-110.svg",
+    "floor": 110,
+    "family": "bone",
+    "boss": true,
+    "shape": "tree"
+  },
+  {
+    "id": "monster-111",
+    "name": "焦糖甜點怪",
+    "type": "monster",
+    "src": "assets/tower/monster-111.svg",
+    "floor": 111,
+    "family": "vine",
+    "boss": false,
+    "shape": "pudding"
+  },
+  {
+    "id": "monster-112",
+    "name": "貪食麵包精",
+    "type": "monster",
+    "src": "assets/tower/monster-112.svg",
+    "floor": 112,
+    "family": "rust",
+    "boss": false,
+    "shape": "bread"
+  },
+  {
+    "id": "monster-113",
+    "name": "銅幣拾荒鼠",
+    "type": "monster",
+    "src": "assets/tower/monster-113.svg",
+    "floor": 113,
+    "family": "elec",
+    "boss": false,
+    "shape": "mouse"
+  },
+  {
+    "id": "monster-114",
+    "name": "酸果凍史萊姆",
+    "type": "monster",
+    "src": "assets/tower/monster-114.svg",
+    "floor": 114,
+    "family": "flame",
+    "boss": false,
+    "shape": "slime"
+  },
+  {
+    "id": "monster-115",
+    "name": "香料商隊幽魂",
+    "type": "monster",
+    "src": "assets/tower/monster-115.svg",
+    "floor": 115,
+    "family": "shadow",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-116",
+    "name": "金秤守衛",
+    "type": "monster",
+    "src": "assets/tower/monster-116.svg",
+    "floor": 116,
+    "family": "mech",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-117",
+    "name": "熱湯鍋怪",
+    "type": "monster",
+    "src": "assets/tower/monster-117.svg",
+    "floor": 117,
+    "family": "venom",
+    "boss": false,
+    "shape": "pot"
+  },
+  {
+    "id": "monster-118",
+    "name": "銀幣鴉群",
+    "type": "monster",
+    "src": "assets/tower/monster-118.svg",
+    "floor": 118,
+    "family": "frost",
+    "boss": false,
+    "shape": "bird"
+  },
+  {
+    "id": "monster-119",
+    "name": "市集夜巡蟹",
+    "type": "monster",
+    "src": "assets/tower/monster-119.svg",
+    "floor": 119,
+    "family": "wind",
+    "boss": false,
+    "shape": "crab"
+  },
+  {
+    "id": "monster-120",
+    "name": "豐收市集・貪婪商主",
+    "type": "monster",
+    "src": "assets/tower/monster-120.svg",
+    "floor": 120,
+    "family": "stone",
+    "boss": true,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-121",
+    "name": "疾行殘影",
+    "type": "monster",
+    "src": "assets/tower/monster-121.svg",
+    "floor": 121,
+    "family": "water",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-122",
+    "name": "破壞衝擊獸",
+    "type": "monster",
+    "src": "assets/tower/monster-122.svg",
+    "floor": 122,
+    "family": "light",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-123",
+    "name": "攀爬藤怪",
+    "type": "monster",
+    "src": "assets/tower/monster-123.svg",
+    "floor": 123,
+    "family": "phantom",
+    "boss": false,
+    "shape": "vine"
+  },
+  {
+    "id": "monster-124",
+    "name": "投擲亂石魔",
+    "type": "monster",
+    "src": "assets/tower/monster-124.svg",
+    "floor": 124,
+    "family": "beast",
+    "boss": false,
+    "shape": "golem"
+  },
+  {
+    "id": "monster-125",
+    "name": "呢喃低語魂",
+    "type": "monster",
+    "src": "assets/tower/monster-125.svg",
+    "floor": 125,
+    "family": "bug",
+    "boss": false,
+    "shape": "ghost"
+  },
+  {
+    "id": "monster-126",
+    "name": "奔騰雷蹄獸",
+    "type": "monster",
+    "src": "assets/tower/monster-126.svg",
+    "floor": 126,
+    "family": "bone",
+    "boss": false,
+    "shape": "deer"
+  },
+  {
+    "id": "monster-127",
+    "name": "墜落深淵手",
+    "type": "monster",
+    "src": "assets/tower/monster-127.svg",
+    "floor": 127,
+    "family": "vine",
+    "boss": false,
+    "shape": "hand"
+  },
+  {
+    "id": "monster-128",
+    "name": "燃燒意志焰",
+    "type": "monster",
+    "src": "assets/tower/monster-128.svg",
+    "floor": 128,
+    "family": "rust",
+    "boss": false,
+    "shape": "flame"
+  },
+  {
+    "id": "monster-129",
+    "name": "凝視終焉眼",
+    "type": "monster",
+    "src": "assets/tower/monster-129.svg",
+    "floor": 129,
+    "family": "elec",
+    "boss": false,
+    "shape": "eye"
+  },
+  {
+    "id": "monster-130",
+    "name": "動詞荒原・言靈始祖",
+    "type": "monster",
+    "src": "assets/tower/monster-130.svg",
+    "floor": 130,
+    "family": "flame",
+    "boss": true,
+    "shape": "scroll"
+  },
+  {
+    "id": "pet-elec",
+    "name": "電蠍",
+    "type": "pet",
+    "src": "assets/tower/pet-elec.svg",
+    "family": "elec"
+  },
+  {
+    "id": "pet-flame",
+    "name": "焰蛇",
+    "type": "pet",
+    "src": "assets/tower/pet-flame.svg",
+    "family": "flame"
+  },
+  {
+    "id": "pet-shadow",
+    "name": "影狼",
+    "type": "pet",
+    "src": "assets/tower/pet-shadow.svg",
+    "family": "shadow"
+  },
+  {
+    "id": "pet-mech",
+    "name": "鏽甲傀儡",
+    "type": "pet",
+    "src": "assets/tower/pet-mech.svg",
+    "family": "mech"
+  },
+  {
+    "id": "pet-venom",
+    "name": "毒蛛",
+    "type": "pet",
+    "src": "assets/tower/pet-venom.svg",
+    "family": "venom"
+  },
+  {
+    "id": "pet-frost",
+    "name": "霜熊",
+    "type": "pet",
+    "src": "assets/tower/pet-frost.svg",
+    "family": "frost"
+  },
+  {
+    "id": "pet-wind",
+    "name": "風鷹",
+    "type": "pet",
+    "src": "assets/tower/pet-wind.svg",
+    "family": "wind"
+  },
+  {
+    "id": "pet-stone",
+    "name": "石像鬼",
+    "type": "pet",
+    "src": "assets/tower/pet-stone.svg",
+    "family": "stone"
+  },
+  {
+    "id": "pet-water",
+    "name": "澤鱷",
+    "type": "pet",
+    "src": "assets/tower/pet-water.svg",
+    "family": "water"
+  },
+  {
+    "id": "pet-light",
+    "name": "眼魔",
+    "type": "pet",
+    "src": "assets/tower/pet-light.svg",
+    "family": "light"
+  },
+  {
+    "id": "pet-phantom",
+    "name": "幻影靈",
+    "type": "pet",
+    "src": "assets/tower/pet-phantom.svg",
+    "family": "phantom"
+  },
+  {
+    "id": "pet-beast",
+    "name": "犀獸",
+    "type": "pet",
+    "src": "assets/tower/pet-beast.svg",
+    "family": "beast"
+  },
+  {
+    "id": "pet-bug",
+    "name": "巨蟲",
+    "type": "pet",
+    "src": "assets/tower/pet-bug.svg",
+    "family": "bug"
+  },
+  {
+    "id": "pet-bone",
+    "name": "骷髏兵",
+    "type": "pet",
+    "src": "assets/tower/pet-bone.svg",
+    "family": "bone"
+  },
+  {
+    "id": "pet-vine",
+    "name": "蔓草魔",
+    "type": "pet",
+    "src": "assets/tower/pet-vine.svg",
+    "family": "vine"
+  },
+  {
+    "id": "pet-rust",
+    "name": "鏽蝕獸",
+    "type": "pet",
+    "src": "assets/tower/pet-rust.svg",
+    "family": "rust"
+  },
+  {
+    "id": "weapon-assassin_0",
+    "name": "生鏽短刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_0.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_0",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-assassin_1",
+    "name": "訓練苦無",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_1.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_1",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-assassin_2",
+    "name": "影蔽小刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_2.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_2",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-assassin_3",
+    "name": "舊式匕首",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_3.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_3",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-assassin_4",
+    "name": "疾風雙刃",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_4.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_4",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-assassin_5",
+    "name": "蛇牙匕首",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_5.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_5",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-assassin_6",
+    "name": "夜梟爪刃",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_6.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_6",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-assassin_7",
+    "name": "迅捷苦無",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_7.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_7",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-assassin_8",
+    "name": "鋼刃飛刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_8.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_8",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-assassin_9",
+    "name": "幻影太刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_9.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_9",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_10",
+    "name": "血月鐮刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_10.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_10",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_11",
+    "name": "破空苦無",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_11.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_11",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_12",
+    "name": "潛蹤雙槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_12.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_12",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_13",
+    "name": "幽影雙刃",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_13.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_13",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_14",
+    "name": "毒牙匕首",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_14.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_14",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-assassin_15",
+    "name": "噬魂雙刃",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_15.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_15",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_16",
+    "name": "千手手裏劍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_16.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_16",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_17",
+    "name": "暗殺者之影",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_17.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_17",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_18",
+    "name": "修羅太刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_18.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_18",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_19",
+    "name": "煉獄鐮刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_19.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_19",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_20",
+    "name": "滅音雙槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_20.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_20",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-assassin_21",
+    "name": "虛空斬影",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_21.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_21",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-assassin_22",
+    "name": "死神鐮刀",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_22.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_22",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-assassin_23",
+    "name": "無聲獵殺者",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_23.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_23",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-assassin_24",
+    "name": "血刃修羅",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_24.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_24",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-assassin_25",
+    "name": "終末暗殺爪",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_25.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_25",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-assassin_26",
+    "name": "覺醒・影帝之刃",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_26.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_26",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-assassin_27",
+    "name": "終焉苦無・輪迴",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_27.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_27",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-assassin_28",
+    "name": "刺客王之證",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_28.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_28",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-assassin_29",
+    "name": "無雙・虛無斬",
+    "type": "weapon",
+    "src": "assets/tower/weapon-assassin_29.svg",
+    "cls": "assassin",
+    "weaponId": "assassin_29",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_0",
+    "name": "莫辛納甘・制式步槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_0.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_0",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-sniper_1",
+    "name": "李恩菲爾德・訓練馬槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_1.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_1",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-sniper_2",
+    "name": "春田M1903・新兵制式槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_2.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_2",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-sniper_3",
+    "name": "Kar98k・舊式制式槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_3.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_3",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-sniper_4",
+    "name": "九九式有坂・疾風步槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_4.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_4",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-sniper_5",
+    "name": "SVT-40・戰場半自動槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_5.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_5",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-sniper_6",
+    "name": "M1加蘭德・八發強襲槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_6.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_6",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-sniper_7",
+    "name": "斯泰爾偵搜・追蹤步槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_7.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_7",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-sniper_8",
+    "name": "雷明頓700・獵手步槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_8.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_8",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-sniper_9",
+    "name": "德拉古諾夫SVD・破空狙擊槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_9.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_9",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_10",
+    "name": "M14丹馬克・精準射手槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_10.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_10",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_11",
+    "name": "HK PSG-1・千里獵狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_11.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_11",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_12",
+    "name": "薩科TRG・靜默戰術槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_12.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_12",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_13",
+    "name": "阿爾寶AW・穿雲精密槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_13.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_13",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_14",
+    "name": "M21・鷹眼射手系統",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_14.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_14",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-sniper_15",
+    "name": "M24武器系統・幽靈狙擊槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_15.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_15",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_16",
+    "name": "M40A5・陸戰噬魂狙擊槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_16.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_16",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_17",
+    "name": "L96A1・修羅精密槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_17.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_17",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_18",
+    "name": "SSG69・虛空戰術狙擊槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_18.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_18",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_19",
+    "name": "布拉澤R93・滅殺獵狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_19.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_19",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_20",
+    "name": "WA2000・神射手傳說槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_20.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_20",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-sniper_21",
+    "name": "黑箭M93・絕影重狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_21.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_21",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-sniper_22",
+    "name": "埃卡特II・死神重炮",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_22.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_22",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-sniper_23",
+    "name": "NTW-20・無聲終焉巨砲",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_23.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_23",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-sniper_24",
+    "name": "麥克米倫TAC-50・虛空湮滅槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_24.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_24",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-sniper_25",
+    "name": "酋長M200・終末審判者",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_25.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_25",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-sniper_26",
+    "name": "AX50極限・滅世長狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_26.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_26",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_27",
+    "name": "M110半自動・覺醒射手系統",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_27.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_27",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_28",
+    "name": "蛇鱷Alligator・終焉重狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_28.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_28",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_29",
+    "name": "L115A3・不敗傳說狙擊槍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_29.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_29",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_30",
+    "name": "AWM・凍地獵殺者",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_30.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_30",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-sniper_31",
+    "name": "巴雷特・審判重狙",
+    "type": "weapon",
+    "src": "assets/tower/weapon-sniper_31.svg",
+    "cls": "sniper",
+    "weaponId": "sniper_31",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-guardian_0",
+    "name": "生鏽巨盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_0.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_0",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-guardian_1",
+    "name": "訓練戰錘",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_1.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_1",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-guardian_2",
+    "name": "舊式戰斧",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_2.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_2",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-guardian_3",
+    "name": "初階護臂",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_3.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_3",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-guardian_4",
+    "name": "疾風堡壘拳套",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_4.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_4",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-guardian_5",
+    "name": "精鋼重炮",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_5.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_5",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-guardian_6",
+    "name": "幻影鎮壓者",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_6.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_6",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-guardian_7",
+    "name": "鋼鐵戰錘",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_7.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_7",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-guardian_8",
+    "name": "厚重巨盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_8.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_8",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-guardian_9",
+    "name": "破陣巨盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_9.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_9",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_10",
+    "name": "雷震戰錘",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_10.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_10",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_11",
+    "name": "烈焰戰斧",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_11.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_11",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_12",
+    "name": "轟天重炮",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_12.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_12",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_13",
+    "name": "鎮魂拳套",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_13.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_13",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_14",
+    "name": "岩壁巨盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_14.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_14",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-guardian_15",
+    "name": "噬魂堡壘拳套",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_15.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_15",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_16",
+    "name": "修羅鎮壓者",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_16.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_16",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_17",
+    "name": "虛空守護聖盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_17.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_17",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_18",
+    "name": "滅世重炮",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_18.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_18",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_19",
+    "name": "不滅戰斧",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_19.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_19",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_20",
+    "name": "煉獄戰錘",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_20.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_20",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-guardian_21",
+    "name": "死神戰錘・終末",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_21.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_21",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-guardian_22",
+    "name": "無盡巨盾・不滅",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_22.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_22",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-guardian_23",
+    "name": "虛空鎮壓者・審判",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_23.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_23",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-guardian_24",
+    "name": "終焉重炮・湮滅",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_24.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_24",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-guardian_25",
+    "name": "滅世聖盾",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_25.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_25",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-guardian_26",
+    "name": "覺醒・泰坦戰錘",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_26.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_26",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-guardian_27",
+    "name": "終焉聖盾・永恆",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_27.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_27",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-guardian_28",
+    "name": "守護王之證",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_28.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_28",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-guardian_29",
+    "name": "無雙・不壞金身",
+    "type": "weapon",
+    "src": "assets/tower/weapon-guardian_29.svg",
+    "cls": "guardian",
+    "weaponId": "guardian_29",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-elementalist_0",
+    "name": "生鏽法杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_0.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_0",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-elementalist_1",
+    "name": "訓練魔導書",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_1.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_1",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-elementalist_2",
+    "name": "舊式圖騰",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_2.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_2",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-elementalist_3",
+    "name": "初階法珠",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_3.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_3",
+    "rarity": "普通",
+    "unlockFloor": 1
+  },
+  {
+    "id": "weapon-elementalist_4",
+    "name": "疾風雷紋杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_4.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_4",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-elementalist_5",
+    "name": "精鋼冰晶劍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_5.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_5",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-elementalist_6",
+    "name": "幻影業火之戒",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_6.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_6",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-elementalist_7",
+    "name": "烈焰法珠",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_7.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_7",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-elementalist_8",
+    "name": "寒霜法杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_8.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_8",
+    "rarity": "普通",
+    "unlockFloor": 11
+  },
+  {
+    "id": "weapon-elementalist_9",
+    "name": "破空法杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_9.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_9",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_10",
+    "name": "千古魔導書",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_10.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_10",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_11",
+    "name": "烈焰圖騰",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_11.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_11",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_12",
+    "name": "寒冰雷紋杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_12.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_12",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_13",
+    "name": "星辰法珠",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_13.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_13",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_14",
+    "name": "虛空魔導書",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_14.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_14",
+    "rarity": "稀有",
+    "unlockFloor": 26
+  },
+  {
+    "id": "weapon-elementalist_15",
+    "name": "噬魂冰晶劍",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_15.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_15",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_16",
+    "name": "修羅業火之戒",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_16.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_16",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_17",
+    "name": "虛空星辰法陣",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_17.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_17",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_18",
+    "name": "滅世法杖",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_18.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_18",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_19",
+    "name": "混沌圖騰",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_19.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_19",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_20",
+    "name": "天雷法珠",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_20.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_20",
+    "rarity": "史詩",
+    "unlockFloor": 46
+  },
+  {
+    "id": "weapon-elementalist_21",
+    "name": "死神魔導書・終末",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_21.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_21",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-elementalist_22",
+    "name": "無盡雷紋杖・湮滅",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_22.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_22",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-elementalist_23",
+    "name": "虛空業火之戒・審判",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_23.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_23",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-elementalist_24",
+    "name": "終焉法珠・崩壞",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_24.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_24",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-elementalist_25",
+    "name": "滅世星辰法陣",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_25.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_25",
+    "rarity": "史詩",
+    "unlockFloor": 71
+  },
+  {
+    "id": "weapon-elementalist_26",
+    "name": "覺醒・星辰主宰",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_26.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_26",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-elementalist_27",
+    "name": "終焉法陣・輪迴",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_27.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_27",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-elementalist_28",
+    "name": "元素王之證",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_28.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_28",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "weapon-elementalist_29",
+    "name": "無雙・混沌主宰",
+    "type": "weapon",
+    "src": "assets/tower/weapon-elementalist_29.svg",
+    "cls": "elementalist",
+    "weaponId": "elementalist_29",
+    "rarity": "傳說",
+    "unlockFloor": 91
+  },
+  {
+    "id": "epic-darkwizard",
+    "name": "黑巫師",
+    "type": "epic",
+    "src": "assets/tower/epic-darkwizard.svg",
+    "epicId": "darkwizard"
+  },
+  {
+    "id": "epic-darkdragon",
+    "name": "黑暗龍",
+    "type": "epic",
+    "src": "assets/tower/epic-darkdragon.svg",
+    "epicId": "darkdragon"
+  },
+  {
+    "id": "epic-abysswarden",
+    "name": "深淵守望者",
+    "type": "epic",
+    "src": "assets/tower/epic-abysswarden.svg",
+    "epicId": "abysswarden"
+  },
+  {
+    "id": "epic-voidreaper",
+    "name": "虛空收割者",
+    "type": "epic",
+    "src": "assets/tower/epic-voidreaper.svg",
+    "epicId": "voidreaper"
+  },
+  {
+    "id": "epic-bloodmoon",
+    "name": "血月妖姬",
+    "type": "epic",
+    "src": "assets/tower/epic-bloodmoon.svg",
+    "epicId": "bloodmoon"
+  }
+]

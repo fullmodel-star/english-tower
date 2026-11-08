@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">黑巫師</title>
+  <defs>
+    <linearGradient id="metal" x2=".65" y2="1">
+      <stop offset="0" stop-color="#cbb4ff"/><stop offset=".38" stop-color="#6d49ae"/><stop offset="1" stop-color="#282040"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#6d49ae" stop-opacity=".75"/><stop offset="1" stop-color="#6d49ae" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="132" r="124" fill="url(#halo)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 211 A92 92 0 1 1 223 167 M29 174 A108 108 0 0 1 179 47 M183 213 226 173 240 134" fill="none" stroke="#cbb4ff" stroke-width="2" opacity=".65"/>
+    <path d="M17 226 43 165 63 135 86 116 98 95 101 62 124 34 159 48 166 84 157 109 186 126 215 187 239 234 191 224 172 243 132 228 92 246 68 226Z" fill="#282040" stroke="#101320" stroke-width="4"/>
+    <path d="M17 226 43 165 63 135 86 116 98 95 101 62 124 34 159 48 166 84 157 109 186 126 215 187 239 234 191 224 172 243 132 228 92 246 68 226Z" fill="none" stroke="#6d49ae" stroke-width="1.5"/>
+    <path d="M45 204 68 145 107 120 116 149 92 181 72 224Z M151 112 184 129 204 176 178 155 164 198 143 232 126 203 137 162Z M98 94 102 65 125 39 152 53 161 80 144 64 125 58 111 77 108 103Z M108 101 121 75 147 79 155 96 142 115 122 119Z M71 207 75 188 96 171 109 184 89 206Z M192 226 213 88 222 89 201 228Z" fill="url(#metal)" stroke="#141625" stroke-width="2"/>
+    <path d="M71 148 87 151 102 134 M153 122 171 146 173 170 M91 215 116 188 121 163 M143 216 153 185 M116 92 124 88 135 91 M142 91 150 87 M121 105 137 104 M211 87 200 62 220 27 239 63 222 88Z M207 62 220 46 231 63 219 77Z" fill="none" stroke="#cbb4ff" stroke-width="1.5"/>
+    <path d="M116 92 124 88 135 91 125 96Z M142 91 150 87 147 94Z M211 62 220 46 229 63 218 76Z M126 149 138 137 145 150 135 164Z" fill="#a9ffe1" stroke="#a9ffe1" stroke-width=".75"/>
+    
+  </g>
+</svg>

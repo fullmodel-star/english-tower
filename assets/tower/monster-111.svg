@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">焦糖甜點怪</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#f0cc8c"/><stop offset=".38" stop-color="#916b46"/><stop offset="1" stop-color="#442c38"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#916b46" stop-opacity=".62"/><stop offset="1" stop-color="#916b46" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#f0cc8c" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M39 67 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ffeab6" stroke="none" stroke-width="2.5"/><path d="M217 177 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ffeab6" stroke="none" stroke-width="2.5"/><g id="body"><path d="M48 193 40 149 62 105 74 124 92 85 95 56 118 73 135 22 158 62 169 99 190 73 207 119 201 143 222 122 216 179 189 211 151 227 108 229 72 213Z" fill="#442c38" stroke="#101321" stroke-width="2.5"/><path d="M48 193 40 149 62 105 74 124 92 85 95 56 118 73 135 22 158 62 169 99 190 73 207 119 201 143 222 122 216 179 189 211 151 227 108 229 72 213Z" fill="none" stroke="#f0cc8c" stroke-width="1.65"/><path d="M57 169 79 129 91 154 106 123 103 96 130 110 140 54 156 91 156 125 182 105 182 147 202 145 190 185 163 211 113 215 82 200Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M103 160 122 170 110 176Z M165 158 140 170 152 176Z M128 178 147 190 127 205 112 193Z" fill="#ffeab6" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

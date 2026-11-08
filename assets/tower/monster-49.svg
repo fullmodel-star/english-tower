@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">齒輪魔像</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#a0d7ef"/><stop offset=".38" stop-color="#467798"/><stop offset="1" stop-color="#242844"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#467798" stop-opacity=".62"/><stop offset="1" stop-color="#467798" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#a0d7ef" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M29 70 l2.56 4 -2.56 4 -2.56 -4Z" fill="#8afff4" stroke="none" stroke-width="2.5"/><path d="M227 171 l3.2 5 -3.2 5 -3.2 -5Z" fill="#8afff4" stroke="none" stroke-width="2.5"/><g id="body"><path d="M16 199 27 133 54 92 86 99 91 63 128 42 165 62 169 99 201 92 227 132 240 199 205 218 178 192 157 207 128 231 99 207 78 192 50 218Z" fill="#242844" stroke="#101321" stroke-width="2.5"/><path d="M16 199 27 133 54 92 86 99 91 63 128 42 165 62 169 99 201 92 227 132 240 199 205 218 178 192 157 207 128 231 99 207 78 192 50 218Z" fill="none" stroke="#a0d7ef" stroke-width="1.65"/><path d="M24 192 34 137 54 104 77 111 84 150 60 158 56 191 45 207Z M232 192 222 137 202 104 179 111 172 150 196 158 200 191 211 207Z M99 69 128 52 158 69 160 107 128 127 96 107Z M84 126 113 126 129 139 144 126 172 126 174 175 151 201 129 218 103 201 82 175Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M101 91 122 95 112 102Z M155 91 134 95 144 102Z M128 147 146 164 128 190 110 164Z" fill="#8afff4" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">熔岩龜</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#ffd19a"/><stop offset=".38" stop-color="#a9573a"/><stop offset="1" stop-color="#481f32"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#a9573a" stop-opacity=".62"/><stop offset="1" stop-color="#a9573a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#ffd19a" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M34 66 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/><path d="M222 171 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/><g id="body"><path d="M15 181 37 149 53 110 87 77 138 66 181 90 203 111 224 110 243 132 230 160 207 165 192 208 154 214 145 192 92 190 77 215 41 211 54 184Z" fill="#481f32" stroke="#101321" stroke-width="2.5"/><path d="M15 181 37 149 53 110 87 77 138 66 181 90 203 111 224 110 243 132 230 160 207 165 192 208 154 214 145 192 92 190 77 215 41 211 54 184Z" fill="none" stroke="#ffd19a" stroke-width="1.65"/><path d="M42 157 61 115 93 83 134 75 167 90 185 119 168 155 128 171 75 167Z M57 161 81 134 110 139 128 168 93 185 65 177Z M161 156 193 128 222 119 234 133 223 149 199 152 182 176Z M151 189 177 173 188 190 177 205 158 206Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M200 135 224 129 215 138Z M72 110 92 101 104 104 86 114Z M120 151 133 141 143 146 130 154Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

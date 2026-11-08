@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">空艦幽魂</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#a0d7ef"/><stop offset=".38" stop-color="#467798"/><stop offset="1" stop-color="#242844"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#467798" stop-opacity=".62"/><stop offset="1" stop-color="#467798" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#a0d7ef" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M49 61 l2.56 4 -2.56 4 -2.56 -4Z" fill="#8afff4" stroke="none" stroke-width="2.5"/><path d="M207 184 l3.2 5 -3.2 5 -3.2 -5Z" fill="#8afff4" stroke="none" stroke-width="2.5"/><g id="body"><path d="M20 220 42 157 65 123 53 90 80 107 96 84 98 59 128 27 155 57 160 86 177 107 204 90 191 123 220 160 237 220 191 198 175 233 153 211 128 242 102 211 79 234 64 198Z" fill="#242844" stroke="#101321" stroke-width="2.5"/><path d="M20 220 42 157 65 123 53 90 80 107 96 84 98 59 128 27 155 57 160 86 177 107 204 90 191 123 220 160 237 220 191 198 175 233 153 211 128 242 102 211 79 234 64 198Z" fill="none" stroke="#a0d7ef" stroke-width="1.65"/><path d="M100 68 129 38 154 66 145 85 156 105 129 134 101 106 112 83Z M42 188 66 142 104 116 109 147 85 181 69 214Z M214 188 190 142 152 116 147 147 171 181 187 214Z M113 142 128 151 144 142 161 193 127 224 96 195Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M108 86 124 95 111 99Z M147 86 132 95 145 99Z M128 152 139 172 128 188 116 172Z" fill="#8afff4" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

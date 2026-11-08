@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">幻影業火之戒</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e0bea0"/><stop offset=".38" stop-color="#84654d"/><stop offset="1" stop-color="#392d36"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#84654d" stop-opacity=".62"/><stop offset="1" stop-color="#84654d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="97" fill="none" stroke="#e0bea0" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="42 22"/><g id="focus"><path d="M57 115 75 73 111 60 128 36 145 60 181 73 199 115 190 181 164 213 128 229 92 213 66 181Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M128 65 171 83 192 128 171 173 128 192 85 173 64 128 85 83Z" fill="#392d36" stroke="#101321" stroke-width="2.5"/><circle cx="128" cy="128" r="55" fill="none" stroke="#e0bea0" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="30 8"/><path d="M128 96 l20.48 32 -20.48 32 -20.48 -32Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/><path d="M80 128 H110 M146 128 H176 M128 82 V101 M128 154 V176" fill="none" stroke="#e0bea0" stroke-width="1.65"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/><path d="M110 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

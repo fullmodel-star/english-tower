@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">血月鐮刀</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#c6dae7"/><stop offset=".38" stop-color="#5d7b97"/><stop offset="1" stop-color="#303a53"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#5d7b97" stop-opacity=".62"/><stop offset="1" stop-color="#5d7b97" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="97" fill="none" stroke="#c6dae7" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="42 22"/><g id="blade"><path d="M22 91 39 53 70 31 116 23 161 31 198 55 222 90 185 69 155 58 116 57 78 65 47 81 34 104Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M153 50 163 55 95 233 80 236 79 222Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M38 79 74 49 118 40 163 47 194 65" fill="none" stroke="#c6dae7" stroke-width="1.65"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#b4ffef" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

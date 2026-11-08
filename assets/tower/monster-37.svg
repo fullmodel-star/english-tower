@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">焰紋毒蛇</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#ffd19a"/><stop offset=".38" stop-color="#a9573a"/><stop offset="1" stop-color="#481f32"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#a9573a" stop-opacity=".62"/><stop offset="1" stop-color="#a9573a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#ffd19a" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M29 71 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/><path d="M227 183 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/><g id="body"><path d="M32 201 48 169 89 155 138 157 152 138 131 114 93 112 76 87 86 58 116 39 151 44 180 68 207 78 227 104 210 120 180 126 206 152 207 178 187 206 151 222 93 225 57 217Z" fill="#481f32" stroke="#101321" stroke-width="2.5"/><path d="M32 201 48 169 89 155 138 157 152 138 131 114 93 112 76 87 86 58 116 39 151 44 180 68 207 78 227 104 210 120 180 126 206 152 207 178 187 206 151 222 93 225 57 217Z" fill="none" stroke="#ffd19a" stroke-width="1.65"/><path d="M44 198 61 176 91 168 136 171 162 157 165 135 184 142 197 158 196 179 174 201 137 211 92 215Z M87 83 99 61 124 49 151 54 176 78 202 85 217 102 200 111 171 104 143 117 111 103 98 102Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M133 79 161 82 149 90Z M177 106 210 108 200 117 192 112 184 119Z M85 197 110 193 123 197 108 203Z" fill="#ff9d55" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

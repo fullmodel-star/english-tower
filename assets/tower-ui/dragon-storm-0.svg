@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">神秘龍蛋</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#beb8fc"/><stop offset=".38" stop-color="#6567a0"/><stop offset="1" stop-color="#2d284c"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#6567a0" stop-opacity=".62"/><stop offset="1" stop-color="#6567a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="92" fill="none" stroke="#beb8fc" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="8 8"/><path d="M128 30 162 53 187 92 204 138 198 183 174 211 128 227 82 211 58 183 52 138 69 92 94 53Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M128 52 154 76 174 112 169 150 150 185 128 207 106 185 87 150 82 112 102 76Z" fill="#2d284c" stroke="#101321" stroke-width="2.5"/><path d="M68 133 96 117 112 129 128 104 143 129 160 117 188 133" fill="none" stroke="#beb8fc" stroke-width="1.65"/><path d="M128 125 l17.28 27 -17.28 27 -17.28 -27Z" fill="#adf7ff" stroke="none" stroke-width="2.5"/></g>
+</svg>

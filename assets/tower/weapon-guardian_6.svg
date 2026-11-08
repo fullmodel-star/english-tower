@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">幻影鎮壓者</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e0bea0"/><stop offset=".38" stop-color="#84654d"/><stop offset="1" stop-color="#392d36"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#84654d" stop-opacity=".62"/><stop offset="1" stop-color="#84654d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="97" fill="none" stroke="#e0bea0" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="42 22"/><g id="haft"><path d="M120 98 138 98 137 198 145 219 128 241 111 220 119 198Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M119 172 137 161 M118 190 136 179 M117 209 138 197" fill="none" stroke="#e0bea0" stroke-width="1.65"/></g><g id="head"><path d="M31 58 56 39 97 44 128 30 159 44 200 39 225 58 214 116 177 128 151 113 105 113 79 128 42 116Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M89 60 128 43 167 60 163 97 128 117 93 97Z" fill="#392d36" stroke="#101321" stroke-width="2.5"/><path d="M128 56 l14.72 23 -14.72 23 -14.72 -23Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/><path d="M47 63 78 58 M178 58 209 63 M46 107 76 115 M180 115 210 107" fill="none" stroke="#e0bea0" stroke-width="1.65"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/><path d="M110 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

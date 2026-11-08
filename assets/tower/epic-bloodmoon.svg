@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">血月妖姬</title>
+  <defs>
+    <linearGradient id="metal" x2=".65" y2="1">
+      <stop offset="0" stop-color="#ffadbe"/><stop offset=".38" stop-color="#ad416c"/><stop offset="1" stop-color="#461d39"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#ad416c" stop-opacity=".75"/><stop offset="1" stop-color="#ad416c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="132" r="124" fill="url(#halo)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 65 A61 61 0 1 0 179 65 M30 75 36 64 41 77 M216 73 222 60 228 73 M22 181 15 166 21 153 M234 183 242 166 236 153" fill="none" stroke="#ffadbe" stroke-width="2" opacity=".65"/>
+    <path d="M18 208 38 157 60 131 45 114 38 81 62 108 79 109 98 94 86 66 83 29 106 56 119 43 128 19 137 42 151 56 174 29 171 65 158 94 177 108 195 107 220 80 214 114 199 132 221 160 238 212 204 199 190 227 163 215 128 246 94 215 66 227 51 198Z" fill="#461d39" stroke="#101320" stroke-width="4"/>
+    <path d="M18 208 38 157 60 131 45 114 38 81 62 108 79 109 98 94 86 66 83 29 106 56 119 43 128 19 137 42 151 56 174 29 171 65 158 94 177 108 195 107 220 80 214 114 199 132 221 160 238 212 204 199 190 227 163 215 128 246 94 215 66 227 51 198Z" fill="none" stroke="#ad416c" stroke-width="1.5"/>
+    <path d="M88 43 107 64 120 52 128 32 137 52 150 65 168 43 160 74 149 83 107 83 96 75Z M104 81 129 75 153 82 153 104 144 121 128 131 111 121 102 101Z M44 153 74 129 103 120 94 148 75 155 59 191 32 203Z M153 120 183 129 213 153 225 203 197 190 182 155 163 148Z M101 139 128 151 155 139 167 166 152 185 170 216 128 238 87 216 104 185 89 166Z" fill="url(#metal)" stroke="#141625" stroke-width="2"/>
+    <path d="M99 67 111 74 128 59 147 74 159 66 M109 95 122 101 M135 101 148 95 M119 118 128 115 138 118 M48 170 72 143 93 132 M209 171 184 143 164 132 M101 163 128 176 156 164 M107 185 128 196 150 185 M104 214 128 227 152 214 M76 166 65 196 59 212 M180 166 191 196 198 212" fill="none" stroke="#ffadbe" stroke-width="1.5"/>
+    <path d="M108 94 122 100 122 105 112 102Z M134 100 149 94 146 102 134 105Z M128 145 137 156 128 168 119 156Z M128 55 134 66 128 75 122 66Z" fill="#ffd097" stroke="#ffd097" stroke-width=".75"/>
+    
+  </g>
+</svg>

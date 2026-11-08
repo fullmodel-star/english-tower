@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">暗影狼</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#cfadff"/><stop offset=".38" stop-color="#7254a2"/><stop offset="1" stop-color="#302149"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#7254a2" stop-opacity=".62"/><stop offset="1" stop-color="#7254a2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#cfadff" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M39 70 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ecc1ff" stroke="none" stroke-width="2.5"/><path d="M217 179 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ecc1ff" stroke="none" stroke-width="2.5"/><g id="body"><path d="M12 175 43 132 69 121 87 80 119 77 154 52 164 85 196 93 213 111 240 124 225 148 190 157 179 198 197 216 157 219 144 185 110 183 93 219 55 219 77 199 76 167 46 167 23 195Z" fill="#302149" stroke="#101321" stroke-width="2.5"/><path d="M12 175 43 132 69 121 87 80 119 77 154 52 164 85 196 93 213 111 240 124 225 148 190 157 179 198 197 216 157 219 144 185 110 183 93 219 55 219 77 199 76 167 46 167 23 195Z" fill="none" stroke="#cfadff" stroke-width="1.65"/><path d="M30 176 53 139 78 131 97 98 128 92 105 119 102 157 86 169 60 153Z M109 113 132 90 156 66 157 94 182 98 209 119 229 127 215 137 182 133 164 151 133 151Z M94 177 109 164 136 163 130 178 105 179 88 204 72 211Z M153 166 176 155 180 164 166 191 177 208 160 209Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M161 111 187 111 174 119Z M187 137 221 138 214 146 207 142 199 150Z" fill="#ecc1ff" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">黑暗龍</title>
+  <defs>
+    <linearGradient id="metal" x2=".65" y2="1">
+      <stop offset="0" stop-color="#9daed3"/><stop offset=".38" stop-color="#555c98"/><stop offset="1" stop-color="#1e2445"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#555c98" stop-opacity=".75"/><stop offset="1" stop-color="#555c98" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="132" r="124" fill="url(#halo)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 197 Q89 243 213 205 M49 229 Q181 261 230 166 M19 187 35 167 M235 153 246 146" fill="none" stroke="#9daed3" stroke-width="2" opacity=".65"/>
+    <path d="M13 32 61 58 94 104 108 123 119 105 116 82 97 53 122 62 141 82 160 76 178 42 182 75 192 91 228 105 244 124 226 147 197 146 179 164 168 210 186 239 139 229 108 242 88 209 87 178 67 152 41 157 43 121 22 95Z" fill="#1e2445" stroke="#101320" stroke-width="4"/>
+    <path d="M13 32 61 58 94 104 108 123 119 105 116 82 97 53 122 62 141 82 160 76 178 42 182 75 192 91 228 105 244 124 226 147 197 146 179 164 168 210 186 239 139 229 108 242 88 209 87 178 67 152 41 157 43 121 22 95Z" fill="none" stroke="#555c98" stroke-width="1.5"/>
+    <path d="M20 45 58 66 89 108 96 137 69 121 46 144 51 113 32 92Z M113 226 96 204 97 177 116 147 135 128 129 165 145 184 164 170 155 203 169 229 141 216Z M120 90 137 98 158 86 178 75 172 94 191 100 205 107 233 116 242 125 222 135 193 131 177 151 153 159 133 140 139 119Z M154 109 169 97 187 104 174 117 155 121Z M178 151 194 134 222 136 210 144 191 144Z" fill="url(#metal)" stroke="#141625" stroke-width="2"/>
+    <path d="M31 61 56 84 81 125 M50 91 63 106 M123 110 137 119 M135 130 153 135 170 127 M149 149 166 143 M192 112 211 120 227 119 M195 133 223 133 M121 154 106 177 124 172 M105 192 129 184 M111 208 143 196 M132 214 152 205" fill="none" stroke="#9daed3" stroke-width="1.5"/>
+    <path d="M156 110 169 105 183 106 172 114Z M195 134 224 132 219 139 213 136 208 142 202 137Z M225 124 233 121 237 125Z" fill="#ffad55" stroke="#ffad55" stroke-width=".75"/>
+    
+  </g>
+</svg>

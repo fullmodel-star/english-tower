@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 220">
+  <defs><linearGradient id="night" x2="1" y2="1"><stop offset="0" stop-color="#211b32"/><stop offset="1" stop-color="#101424"/></linearGradient><radialGradient id="moon"><stop offset="0" stop-color="#a78fb5" stop-opacity=".55"/><stop offset="1" stop-color="#a78fb5" stop-opacity="0"/></radialGradient></defs>
+  <path fill="url(#night)" d="M0 0h840v220H0z"/><circle fill="url(#moon)" cx="658" cy="84" r="134"/>
+  <path d="M0 173 82 127 127 142 208 98 326 161 416 124 513 162 594 127 703 160 760 121 840 149v71H0Z" fill="#25243d"/>
+  <path d="M0 195 101 158 186 175 232 145 318 187 414 147 492 190 600 162 734 184 840 157v63H0Z" fill="#171a2c"/>
+  <path d="M530 190h222M559 191v-42l25-17 24 17v42m65 0v-43l23-17 25 17v43M609 190v-75l11-11V62l13-12v21h15V50l13 12v42l12 11v75Z" fill="#292338" stroke="#d6b487" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M630 191v-39l11-15 11 15v39Z" fill="#121425" stroke="#d6b487" stroke-width="1.8"/><path d="m641 87 5 9-5 9-5-9Z" fill="#f2cc96"/>
+  <circle cx="641" cy="96" r="77" fill="none" stroke="#d3b58f" stroke-opacity=".26" stroke-dasharray="4 10"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">泥沼跳蛙</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#abc98a"/><stop offset=".38" stop-color="#537450"/><stop offset="1" stop-color="#233832"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#537450" stop-opacity=".62"/><stop offset="1" stop-color="#537450" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#abc98a" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M34 62 l2.56 4 -2.56 4 -2.56 -4Z" fill="#daff85" stroke="none" stroke-width="2.5"/><path d="M222 184 l3.2 5 -3.2 5 -3.2 -5Z" fill="#daff85" stroke="none" stroke-width="2.5"/><g id="body"><path d="M17 202 42 166 54 111 78 87 90 53 119 73 148 73 169 49 190 90 208 116 211 161 239 199 204 212 166 190 131 206 91 191 53 213Z" fill="#233832" stroke="#101321" stroke-width="2.5"/><path d="M17 202 42 166 54 111 78 87 90 53 119 73 148 73 169 49 190 90 208 116 211 161 239 199 204 212 166 190 131 206 91 191 53 213Z" fill="none" stroke="#abc98a" stroke-width="1.65"/><path d="M27 195 65 163 55 133 91 148 112 180 89 188 59 198Z M227 195 190 163 199 132 165 150 144 181 167 187 197 198Z M65 118 86 94 93 66 122 85 145 84 166 64 179 94 195 118 166 148 127 163 89 146Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M83 111 118 118 103 124Z M172 110 139 118 153 124Z M88 137 128 145 166 136 149 148 139 145 128 154 116 146 106 149Z" fill="#daff85" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

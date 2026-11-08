@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">元素王之證</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#ffe0a1"/><stop offset=".38" stop-color="#aa7444"/><stop offset="1" stop-color="#452d3c"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#aa7444" stop-opacity=".62"/><stop offset="1" stop-color="#aa7444" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="105" fill="none" stroke="#ffe0a1" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="30 7 2 7"/><path d="M33 76 l3.84 6 -3.84 6 -3.84 -6Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><path d="M222 167 l3.84 6 -3.84 6 -3.84 -6Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><g id="shaft"><path d="M120 98 138 98 137 198 145 219 128 241 111 220 119 198Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M119 142 138 130 M119 162 138 150 M118 185 138 172 M115 215 142 198" fill="none" stroke="#ffe0a1" stroke-width="1.65"/></g><g id="focus"><path d="M128 25 154 53 174 39 189 78 168 114 128 144 88 114 67 78 82 39 102 53Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M128 38 158 75 145 110 128 125 111 110 98 75Z" fill="#452d3c" stroke="#101321" stroke-width="2.5"/><path d="M128 56 l14.72 23 -14.72 23 -14.72 -23Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><path d="M79 76 93 100 112 114 M177 76 163 100 144 114" fill="none" stroke="#ffe0a1" stroke-width="1.65"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><path d="M110 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><path d="M128 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/><path d="M146 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#fff0b8" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

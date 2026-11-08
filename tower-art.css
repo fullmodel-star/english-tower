@@ -1,0 +1,115 @@
+/* English Tower original vector collection. */
+.towerHero,.towerWeapon,.towerPet,.towerMonster{object-fit:contain;image-rendering:auto!important}
+.heroAvatar{width:92px;height:106px;border:0;border-radius:18px;background:linear-gradient(145deg,#254858,#182d40)}
+.heroAvatar .towerHero{width:100%;height:100%}.classBtn .classIcon{width:76px;height:76px;float:left;margin-right:16px}
+.classBtn{min-height:112px}.heroName{font-size:1.15rem}.heroTop{gap:16px}
+.towerMonster{width:164px;height:164px;display:block;margin:auto}.bossStage{min-height:174px}.bossEmoji{font-size:inherit}.homeMonster .towerMonster{width:150px;height:150px}
+.weaponIcon.towerWeapon{width:76px;height:76px}.weaponIconSmall.towerWeapon{width:40px;height:40px}.familySpriteBig.towerPet{width:56px;height:56px}
+.towerShiny{filter:drop-shadow(0 0 9px #f8d778)}
+.choice:disabled{opacity:.72}.choice.correct:disabled,.choice.wrong:disabled{opacity:1}.answerExplanation{font-weight:400;color:var(--text);font-size:.95rem;line-height:1.65;margin-top:6px}
+.artEntry{display:block;width:100%;text-align:left;margin-bottom:20px!important;padding:18px!important}.artEntry span{display:block;font-size:.9rem;font-weight:400;margin-top:5px}
+.artHeader{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:22px 0}.artHeader h1{font-size:2rem;letter-spacing:-.04em}.eyebrow{font:700 .72rem system-ui,sans-serif;letter-spacing:.2em;color:#E1B86A;margin:0 0 10px}
+.artSummary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px}.artSummary span{background:#1B3545;border:1px solid #355161;border-radius:12px;padding:14px;color:#B5C9D2;font-size:.82rem}.artSummary b{display:block;color:#F3D494;font-size:1.65rem;margin-bottom:5px}
+.artToolbar{display:grid;grid-template-columns:auto minmax(100px,1fr) auto minmax(80px,.6fr) auto minmax(80px,.6fr);gap:10px;align-items:center}.artToolbar p{grid-column:1/-1;margin:3px 0 0}.artToolbar input,.artToolbar select,.settingsCard select,.settingsCard input[type=password]{min-width:0;width:100%;padding:11px;border:1px solid #52748A;border-radius:8px;color:#EEF3F6;background:#142637;font:inherit}
+.artGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.artTile{position:relative;display:flex;flex-direction:column;text-align:left;margin:0;padding:16px;border:1px solid #385465;border-radius:16px;background:linear-gradient(150deg,#1C3949,#162838);transition:transform .15s,border-color .15s;overflow:hidden}.artTile:hover{transform:translateY(-3px);border-color:#CFA967;background:#234153}.artTile img{width:100%;height:auto;aspect-ratio:1;object-fit:contain}.artTile b{font-size:.98rem;color:#F3F0E7;line-height:1.5}.artTile>span:last-child{color:#A9C0CB;font-size:.76rem;line-height:1.6;margin-top:5px}.artState{font-size:.67rem;letter-spacing:.03em;color:#B3C3CF;align-self:flex-start;border:1px solid #486373;border-radius:20px;padding:3px 8px}.artState.owned{color:#A7E4C7;border-color:#4A8C79}.artPager{display:flex;justify-content:center;gap:16px;align-items:center;padding:22px 0}
+#artDialog{max-width:480px;width:calc(100% - 32px);max-height:90vh;overflow:auto;background:#183242;color:#F3F0E7;border:1px solid #6D8794;border-radius:22px;padding:28px;text-align:center}#artDialog::backdrop{background:#08121cc9;backdrop-filter:blur(5px)}.artDetailImage{display:block;width:min(100%,320px);height:auto;margin:auto}.artClose{position:absolute;right:10px;top:8px;background:none;border:0;font-size:1.6rem}.artDownload{display:inline-block;padding:12px 24px;border-radius:9px;background:#E1B86A;color:#142637;text-decoration:none;font-weight:bold}
+.settingsCard label{display:block;margin:15px 0 7px}.settingsCard input[type=checkbox]{width:20px;height:20px;vertical-align:middle;margin-right:9px}.settingsCard h2{margin-top:28px}.settingsCard p{line-height:1.7}.settingsCard button{min-height:44px}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #F5D894;outline-offset:3px}.artGrid .card{grid-column:1/-1}
+html.towerReduceMotion *,html.towerReduceMotion *::before,html.towerReduceMotion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.towerReduceMotion .screenflash,.towerReduceMotion .counterVignette{display:none!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.screenflash,.counterVignette{display:none!important}}
+@media(max-width:600px){.artGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.artTile{padding:12px}.artSummary{grid-template-columns:repeat(2,1fr)}.artToolbar{grid-template-columns:64px 1fr}.artToolbar p{grid-column:1/-1}.artHeader h1{font-size:1.65rem}.artHeader{align-items:flex-start}.artHeader button{white-space:nowrap;padding:9px}.heroAvatar{width:76px;height:90px}.heroTop{gap:10px}.weaponIcon.towerWeapon{width:58px;height:58px}.towerMonster{width:140px;height:140px}.bossStage{min-height:148px}}
+
+/* Obsidian panels, brass edges and the tower's original interface artwork. */
+:root {
+  --bg:#121421; --panel:#1d2031; --line:#625a75; --line2:#38364e;
+  --text:#f3edf0; --sub:#bcb6cd; --gold:#e7bd84;
+}
+body {
+  background:radial-gradient(ellipse at 50% 0%,#2a223b 0%,transparent 640px),var(--bg);
+  font-family:system-ui,"Microsoft JhengHei",sans-serif;
+}
+.card {background:linear-gradient(155deg,#242338,var(--panel) 72%);}
+.card.blackout {background:#10111c;}
+.towerBar {background:#171826;}
+.towerGlyph {border-radius:6px;}
+.towerSymbol {width:1.22em;height:1.22em;vertical-align:-.24em;object-fit:contain;margin-right:.25em;}
+.navIcon .towerSymbol {width:1.4em;height:1.4em;margin:0;}
+.towerTab .towerSymbol {width:1em;height:1em;}
+button:hover,.artTile:hover {background:#453c55;}
+button.primary .towerSymbol {filter:brightness(.29);}
+.heroAvatar {background:linear-gradient(145deg,#38304b,#211f33);}
+.artTile {background:linear-gradient(150deg,#2a2740,#201f32);border-color:#514966;}
+.artSummary span {background:#27243a;border-color:#514966;color:var(--sub);}
+.artState {border-color:#655a79;color:#c5bcd5;}
+.artTile>span:last-child {color:var(--sub);}
+.artToolbar input,.artToolbar select,.settingsCard select,.settingsCard input[type=password],#artDialog {
+  background:#1b1b2d;border-color:#686078;color:var(--text);
+}
+.artDownload {background:var(--gold);color:#21172a;}
+.gearIcon,.gearIconSmall {image-rendering:auto;}
+.dragonThumb {width:40px;height:40px;object-fit:contain;flex:none;}
+.dragonPortrait {width:min(180px,60vw);height:auto;display:block;margin:0 auto 4px;}
+.eventArt {width:92px;height:92px;display:block;margin:auto;}
+.towerMasthead {
+  min-height:150px;display:flex;flex-direction:column;justify-content:center;
+  padding:18px;border:1px solid #514460;border-radius:8px;margin-bottom:12px;
+  background:linear-gradient(90deg,#181626 12%,#18162615 86%),url("assets/tower-ui/gate.svg?v=forge") 68% center/cover;
+}
+.towerMasthead h1 {font-size:clamp(1.9rem,5vw,2.6rem);letter-spacing:.06em;}
+.towerMasthead .sub {margin:8px 0 0;max-width:18em;color:#d9d0e2;}
+.towerKicker {font-size:.68rem;font-weight:700;letter-spacing:.18em;color:var(--gold);}
+
+/* ===== 2026-11-07 開始畫面「星夜巨塔」封面（樣稿 A） =====
+   字型：assets/fonts（Noto Serif TC 子集＋Cinzel，皆 OFL-1.1，授權檔同資料夾）。改封面固定文字要跑 scripts/build-cover-fonts.py。 */
+@font-face{font-family:"TowerSerif";src:url(assets/fonts/notoserif-tc-900-cover.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"TowerSerif";src:url(assets/fonts/notoserif-tc-700-cover.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Cinzel";src:url(assets/fonts/cinzel-latin-900-normal.woff2) format("woff2");font-weight:900;font-display:swap}
+@font-face{font-family:"Cinzel";src:url(assets/fonts/cinzel-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+.loginGrid .towerCover{position:relative;overflow:hidden;padding:0;border:1px solid #3f5680;background:#0b1020;color:#eef3f6;isolation:isolate}
+.towerCover .tcSky{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.towerCover .tcInner{display:flex;flex-direction:column;align-items:center;padding:26px 18px 24px;max-width:520px;margin:0 auto}
+.towerCover .tcKicker{font:700 13px/1 "Cinzel",Georgia,serif;letter-spacing:.42em;margin-right:-.42em;color:#f2c879;text-shadow:0 0 12px rgba(242,200,121,.5)}
+.towerCover h1.tcTitle{margin:10px 0 4px;font:900 clamp(48px,15vw,68px)/1.08 "TowerSerif","Noto Serif TC",serif;letter-spacing:.08em;margin-right:-.08em;
+  color:#f6d27c;background:linear-gradient(180deg,#fff7dc 0%,#f6d27c 42%,#c98a2c 58%,#ffe9a8 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 3px 0 #5a3410) drop-shadow(0 0 18px rgba(255,190,90,.45))}
+.towerCover .tcTag{margin:0;font:700 15px/1.6 "TowerSerif","Noto Serif TC",serif;color:#d9e4f2;letter-spacing:.12em;text-align:center;text-shadow:0 2px 6px #000}
+.towerCover .tcStage{position:relative;width:100%;max-width:390px;height:clamp(230px,70vw,300px);margin-top:4px}
+.towerCover .tcHero{position:absolute;bottom:0;height:auto;filter:drop-shadow(0 10px 18px rgba(0,0,0,.6))}
+.towerCover .tcC{left:50%;width:52%;transform:translateX(-50%);z-index:2;animation:tcFloat 4s ease-in-out infinite}
+.towerCover .tcL{left:0;bottom:6%;width:34%;opacity:.92}
+.towerCover .tcR{right:0;bottom:6%;width:34%;opacity:.92;transform:scaleX(-1)}
+@keyframes tcFloat{50%{transform:translate(-50%,-6px)}}
+.towerCover .tcSlots{width:100%;margin-top:14px;scroll-margin-top:64px}
+.towerCover .tcSlotsH{font:700 13px/1 "Cinzel",Georgia,serif;letter-spacing:.3em;color:#9fb3cc;text-align:center;margin-bottom:10px}
+.towerCover .tcHint{margin:0;text-align:center;color:#d9e4f2;font-size:1rem;line-height:1.6;text-shadow:0 1px 4px #000}
+.towerCover button.tcSlot{display:flex;align-items:center;gap:12px;width:100%;margin:0 0 10px;padding:10px 14px;border-radius:14px;text-align:left;color:#eef3f6;min-height:72px;
+  background:linear-gradient(90deg,rgba(28,40,70,.94),rgba(18,24,44,.94));border:1px solid #3f5680;box-shadow:0 0 0 1px rgba(242,200,121,.15) inset;cursor:pointer}
+.towerCover button.tcSlot:hover,.towerCover button.tcSlot:focus-visible{border-color:#f2c879;outline:none;box-shadow:0 0 0 2px #f2c879}
+.towerCover .tcSlot img,.towerCover .tcSlotEmpty{flex:0 0 52px;width:52px;height:52px;border-radius:12px;background:#0d1426;border:1px solid rgba(242,200,121,.35);display:grid;place-items:center}
+.towerCover .tcSlotEmpty img{width:28px;height:28px;border:0;background:none}
+.towerCover .tcSlotMain{flex:1;min-width:0}
+.towerCover .tcSlotMain b{display:block;font-size:1.1rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.towerCover .tcSlotMain small{display:block;color:#a9bbd2;font-size:.875rem;margin-top:2px}
+.towerCover .tcBar{display:block;height:6px;border-radius:9px;background:#0b1224;margin-top:6px;overflow:hidden}
+.towerCover .tcBar i{display:block;height:100%;background:linear-gradient(90deg,#6fd0ff,#f2c879)}
+.towerCover .tcFloor{font:900 12px/1 "Cinzel",Georgia,serif;color:#f2c879;text-align:center}
+.towerCover .tcFloor span{display:block;font:900 24px/1 "Cinzel",Georgia,serif;margin-top:2px}
+.towerCover .tcLabel{align-self:stretch;margin:8px 0 6px;font-size:1rem;color:#c5d3e6}
+.towerCover input.tcInput{width:100%;min-height:50px;padding:12px 14px;border-radius:12px;border:1px solid #3f5680;background:#0d1426;color:#fff;font-size:16px}
+.towerCover input.tcInput:focus{border-color:#f2c879;outline:2px solid rgba(242,200,121,.5)}
+.towerCover .nameErr{align-self:stretch;color:#ffb4a8}
+.loginMain.towerCover button.tcGo{display:block;width:100%;max-width:360px;margin:10px auto 0;min-height:60px;border:0;border-radius:16px;padding:16px 20px;cursor:pointer;
+  font:900 22px/1 "TowerSerif","Noto Serif TC",serif;letter-spacing:.2em;color:#2a1604;
+  background:linear-gradient(180deg,#ffe7a3,#f2b84b 55%,#d98a1f);box-shadow:0 0 0 2px #fff2c4 inset,0 6px 0 #8a4d0e,0 0 28px rgba(255,184,77,.55);animation:tcPulse 2.2s ease-in-out infinite}
+.loginMain.towerCover button.tcGo:active{transform:translateY(3px);box-shadow:0 0 0 2px #fff2c4 inset,0 3px 0 #8a4d0e}
+.loginMain.towerCover button.tcGo:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@keyframes tcPulse{50%{box-shadow:0 0 0 2px #fff2c4 inset,0 6px 0 #8a4d0e,0 0 46px rgba(255,184,77,.85)}}
+@media (prefers-reduced-motion:reduce){.towerCover .tcC,.loginMain.towerCover button.tcGo{animation:none}}
+html.towerReduceMotion .towerCover .tcC,html.towerReduceMotion .loginMain.towerCover button.tcGo{animation:none}
+/* 場景固定在設計尺寸（寬 ≤400px 置中），兩側靠 overflow:visible 的延伸天空／山／地面填滿；卡片寬了也不會放大錯位 */
+.loginGrid .towerCover{background:#0c1122}
+.towerCover .tcSky{inset:auto;top:0;left:50%;width:min(100%,400px);height:auto;aspect-ratio:390/900;transform:translateX(-50%);overflow:visible}
+/* 2026-11-07 第 4 層起「題型」下拉選單：外觀對齊一般按鈕（同底色／框色／8px 圓角／字級），手機至少 44px 高；箭頭用 --sub 色畫，不加新顏色 */
+label[for=floorMode]{display:inline-block;margin:4px 8px 4px 0;vertical-align:middle}
+#floorMode{-webkit-appearance:none;appearance:none;font:inherit;font-size:1rem;line-height:1.3;min-height:44px;min-width:10em;max-width:100%;margin:4px 0 8px;padding:10px 40px 10px 14px;vertical-align:middle;color:var(--text);background-color:var(--line2);border:1px solid var(--line);border-radius:8px;cursor:pointer;background-image:linear-gradient(45deg,transparent 50%,var(--sub) 50%),linear-gradient(135deg,var(--sub) 50%,transparent 50%);background-position:calc(100% - 21px) 50%,calc(100% - 15px) 50%;background-size:6px 6px;background-repeat:no-repeat}
+#floorMode:hover{background-color:#453c55}
+#floorMode option{background:var(--panel);color:var(--text)}

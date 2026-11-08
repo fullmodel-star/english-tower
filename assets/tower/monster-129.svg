@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">凝視終焉眼</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#beb8fc"/><stop offset=".38" stop-color="#6567a0"/><stop offset="1" stop-color="#2d284c"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#6567a0" stop-opacity=".62"/><stop offset="1" stop-color="#6567a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#beb8fc" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M39 72 l2.56 4 -2.56 4 -2.56 -4Z" fill="#adf7ff" stroke="none" stroke-width="2.5"/><path d="M217 176 l3.2 5 -3.2 5 -3.2 -5Z" fill="#adf7ff" stroke="none" stroke-width="2.5"/><g id="body"><path d="M15 139 50 97 78 103 97 68 128 34 160 68 177 103 206 97 241 139 218 156 191 154 184 195 159 180 128 229 96 180 71 195 65 154 39 156Z" fill="#2d284c" stroke="#101321" stroke-width="2.5"/><path d="M15 139 50 97 78 103 97 68 128 34 160 68 177 103 206 97 241 139 218 156 191 154 184 195 159 180 128 229 96 180 71 195 65 154 39 156Z" fill="none" stroke="#beb8fc" stroke-width="1.65"/><path d="M23 137 56 107 79 113 69 139 47 147Z M233 137 200 107 177 113 187 139 209 147Z M87 112 128 52 170 112 162 159 129 213 95 159Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M92 122 113 106 128 104 143 106 165 122 143 139 128 142 113 139Z" fill="#adf7ff" stroke="none" stroke-width="2.5"/><path d="M128 108 134 123 128 138 122 123Z" fill="#2d284c" stroke="#101321" stroke-width="2.5"/></g></g></g>
+</svg>

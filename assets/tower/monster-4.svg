@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">竹蜂群</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#abc98a"/><stop offset=".38" stop-color="#537450"/><stop offset="1" stop-color="#233832"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#537450" stop-opacity=".62"/><stop offset="1" stop-color="#537450" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#abc98a" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M44 64 l2.56 4 -2.56 4 -2.56 -4Z" fill="#daff85" stroke="none" stroke-width="2.5"/><path d="M212 182 l3.2 5 -3.2 5 -3.2 -5Z" fill="#daff85" stroke="none" stroke-width="2.5"/><g id="body"><path d="M14 161 40 121 73 111 57 75 70 40 90 74 104 88 128 67 151 88 167 74 185 37 199 77 184 112 216 122 242 161 217 189 205 163 180 152 166 190 129 226 90 192 75 152 48 163 39 190Z" fill="#233832" stroke="#101321" stroke-width="2.5"/><path d="M14 161 40 121 73 111 57 75 70 40 90 74 104 88 128 67 151 88 167 74 185 37 199 77 184 112 216 122 242 161 217 189 205 163 180 152 166 190 129 226 90 192 75 152 48 163 39 190Z" fill="none" stroke="#abc98a" stroke-width="1.65"/><path d="M23 159 48 128 82 121 91 139 52 150 38 170Z M233 159 209 128 174 121 165 139 203 150 217 170Z M88 115 110 97 129 78 147 97 169 115 158 150 128 174 98 150Z M99 160 129 183 156 160 153 188 129 215 104 189Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M89 103 63 76 41 55 49 106 79 124Z M167 103 193 76 215 55 207 106 177 124Z" fill="none" stroke="#abc98a" stroke-width="1.65"/><g id="eyes"><path d="M101 122 123 133 109 137Z M156 122 134 133 148 137Z M128 145 138 155 128 167 118 155Z" fill="#daff85" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

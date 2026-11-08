@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">遠古回響・百層殘影</title>
+  <defs>
+    <linearGradient id="metal" x2=".65" y2="1">
+      <stop offset="0" stop-color="#d9b1ed"/><stop offset=".38" stop-color="#65497c"/><stop offset="1" stop-color="#251d39"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#65497c" stop-opacity=".75"/><stop offset="1" stop-color="#65497c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path d="M29 123 69 59 125 30 186 56 229 124 192 192 129 227 66 193Z" fill="none" stroke="#bc8eb6" stroke-dasharray="7 8"/><circle cx="128" cy="132" r="124" fill="url(#halo)"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 154 A116 116 0 0 0 234 169 M12 69 38 23 61 32 M194 29 222 17 247 57" fill="none" stroke="#d9b1ed" stroke-width="2" opacity=".65"/>
+    <path d="M17 87 35 37 67 62 87 84 105 69 111 42 129 24 150 43 155 69 173 86 195 59 222 34 241 88 228 143 209 159 218 222 178 237 154 211 129 243 100 211 76 237 36 219 45 158 27 142Z" fill="#251d39" stroke="#101320" stroke-width="4"/>
+    <path d="M17 87 35 37 67 62 87 84 105 69 111 42 129 24 150 43 155 69 173 86 195 59 222 34 241 88 228 143 209 159 218 222 178 237 154 211 129 243 100 211 76 237 36 219 45 158 27 142Z" fill="none" stroke="#65497c" stroke-width="1.5"/>
+    <path d="M23 86 38 46 69 76 82 100 57 126 32 133Z M175 99 194 75 219 45 235 86 224 131 196 124Z M47 147 77 135 96 155 89 200 72 225 44 215 50 183Z M161 154 181 136 211 147 207 180 211 216 183 226 165 201Z M115 48 129 31 146 48 148 73 130 84 109 73Z M93 99 128 82 165 99 181 126 158 154 130 168 99 151 78 127Z M103 160 129 176 155 161 155 196 129 228 103 196Z" fill="url(#metal)" stroke="#141625" stroke-width="2"/>
+    <path d="M31 86 47 66 64 88 56 103 38 112 M223 86 211 65 192 88 200 104 219 114 M53 154 72 147 82 160 69 187 54 188 M201 154 184 148 174 161 188 187 202 189 M119 57 129 49 141 57 129 66Z M91 126 111 109 129 106 149 109 167 126 147 142 128 148 109 141Z M111 176 129 186 146 176 M116 194 129 202 143 194" fill="none" stroke="#d9b1ed" stroke-width="1.5"/>
+    <path d="M95 126 Q128 100 163 126 Q130 153 95 126Z M116 56 129 49 143 56 129 65Z M127 179 134 187 128 199 122 187Z" fill="#ffcbad" stroke="#ffcbad" stroke-width=".75"/>
+    <path d="M129 111 135 125 130 143 124 126Z" fill="#251d39"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">沼澤水蛭</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#abc98a"/><stop offset=".38" stop-color="#537450"/><stop offset="1" stop-color="#233832"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#537450" stop-opacity=".62"/><stop offset="1" stop-color="#537450" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#abc98a" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M34 68 l2.56 4 -2.56 4 -2.56 -4Z" fill="#daff85" stroke="none" stroke-width="2.5"/><path d="M222 178 l3.2 5 -3.2 5 -3.2 -5Z" fill="#daff85" stroke="none" stroke-width="2.5"/><g id="body"><path d="M16 185 37 151 71 144 98 122 117 85 149 58 184 62 216 83 231 111 212 139 177 150 153 174 114 191 66 204 35 201Z" fill="#233832" stroke="#101321" stroke-width="2.5"/><path d="M16 185 37 151 71 144 98 122 117 85 149 58 184 62 216 83 231 111 212 139 177 150 153 174 114 191 66 204 35 201Z" fill="none" stroke="#abc98a" stroke-width="1.65"/><path d="M34 180 51 157 77 152 87 184 64 196Z M83 150 104 132 117 160 108 181 93 183Z M112 127 126 96 149 87 155 113 146 151 123 162Z M151 65 182 70 211 87 222 109 207 126 176 127 153 111 163 89Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M49 152 44 132 67 145Z M88 135 85 111 105 127Z M118 100 123 76 140 84Z" fill="none" stroke="#abc98a" stroke-width="1.65"/><g id="eyes"><path d="M174 91 206 98 194 105Z M186 123 213 120 208 134 202 129 195 137Z" fill="#daff85" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

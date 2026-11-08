@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">天空鯨</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e7b0c8"/><stop offset=".38" stop-color="#954d7f"/><stop offset="1" stop-color="#421f42"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#954d7f" stop-opacity=".62"/><stop offset="1" stop-color="#954d7f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#e7b0c8" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M39 68 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M217 172 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><g id="body"><path d="M14 146 37 105 78 84 114 79 149 91 177 71 199 86 231 64 243 83 222 119 207 139 188 180 152 211 113 206 121 180 86 188 48 182 23 169Z" fill="#421f42" stroke="#101321" stroke-width="2.5"/><path d="M14 146 37 105 78 84 114 79 149 91 177 71 199 86 231 64 243 83 222 119 207 139 188 180 152 211 113 206 121 180 86 188 48 182 23 169Z" fill="none" stroke="#e7b0c8" stroke-width="1.65"/><path d="M25 146 43 115 83 93 118 90 153 104 185 86 198 98 231 76 218 112 198 129 177 165 151 187 132 189 152 156 106 167 65 171 36 163Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M62 124 87 118 78 130Z M36 153 96 143 81 156 70 151 61 160 51 155 45 163Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">蔓草魔</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e7b0c8"/><stop offset=".38" stop-color="#954d7f"/><stop offset="1" stop-color="#421f42"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#954d7f" stop-opacity=".62"/><stop offset="1" stop-color="#954d7f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="102" fill="none" stroke="#e7b0c8" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="35 28"/><path d="M34 61 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M222 172 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><g id="body"><path d="M14 217 46 187 42 139 13 107 51 117 69 96 60 51 96 82 108 47 129 17 149 50 159 82 197 50 187 96 205 117 243 105 216 140 210 187 243 217 203 210 182 237 156 208 129 244 101 208 74 237 53 210Z" fill="#421f42" stroke="#101321" stroke-width="2.5"/><path d="M14 217 46 187 42 139 13 107 51 117 69 96 60 51 96 82 108 47 129 17 149 50 159 82 197 50 187 96 205 117 243 105 216 140 210 187 243 217 203 210 182 237 156 208 129 244 101 208 74 237 53 210Z" fill="none" stroke="#e7b0c8" stroke-width="1.65"/><path d="M55 143 70 122 86 128 91 158 73 188 78 220 54 198Z M200 143 186 122 170 128 165 158 183 188 178 220 202 198Z M92 118 111 99 119 62 129 35 138 63 145 99 165 118 158 159 140 178 150 201 128 229 106 202 116 179 98 159Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M102 124 123 132 110 137Z M155 124 134 132 147 137Z M128 149 139 168 128 186 117 168Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/></g></g></g>
+</svg>

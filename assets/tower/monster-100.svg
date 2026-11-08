@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">王座之間・系統原初支配者</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e7b0c8"/><stop offset=".38" stop-color="#954d7f"/><stop offset="1" stop-color="#421f42"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#954d7f" stop-opacity=".62"/><stop offset="1" stop-color="#954d7f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="110" fill="none" stroke="#e7b0c8" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="28 10 3 10"/><circle cx="128" cy="128" r="99" fill="none" stroke="#e7b0c8" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="2 8"/><path d="M44 69 l2.56 4 -2.56 4 -2.56 -4Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M212 171 l3.2 5 -3.2 5 -3.2 -5Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><g id="body"><path d="M15 139 50 97 78 103 97 68 128 34 160 68 177 103 206 97 241 139 218 156 191 154 184 195 159 180 128 229 96 180 71 195 65 154 39 156Z" fill="#421f42" stroke="#101321" stroke-width="2.5"/><path d="M15 139 50 97 78 103 97 68 128 34 160 68 177 103 206 97 241 139 218 156 191 154 184 195 159 180 128 229 96 180 71 195 65 154 39 156Z" fill="none" stroke="#e7b0c8" stroke-width="1.65"/><path d="M23 137 56 107 79 113 69 139 47 147Z M233 137 200 107 177 113 187 139 209 147Z M87 112 128 52 170 112 162 159 129 213 95 159Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><g id="eyes"><path d="M92 122 113 106 128 104 143 106 165 122 143 139 128 142 113 139Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M128 108 134 123 128 138 122 123Z" fill="#421f42" stroke="#101321" stroke-width="2.5"/></g></g><g id="crown"><path d="M62 89 62 46 93 46 M163 46 H194 V89 M194 169 V210 H163 M93 210 H62 V169 M117 154 H139 M113 166 H143" fill="none" stroke="#e7b0c8" stroke-width="1.65"/><path d="M128 16 l5.76 9 -5.76 9 -5.76 -9Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M32 122 l3.84 6 -3.84 6 -3.84 -6Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/><path d="M224 122 l3.84 6 -3.84 6 -3.84 -6Z" fill="#ffd6ae" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">刺客・初始</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#c2b3eb"/><stop offset=".38" stop-color="#65518f"/><stop offset="1" stop-color="#291f43"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#65518f" stop-opacity=".62"/><stop offset="1" stop-color="#65518f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><g id="cape"><path d="M96 104 161 104 183 150 220 221 170 214 145 235 109 224 74 235 38 221 75 161Z" fill="#291f43" stroke="#101321" stroke-width="2.5"/><path d="M94 127 76 180 57 211 M164 127 180 179 201 213" fill="none" stroke="#c2b3eb" stroke-width="1.65"/></g><g id="legs"><path d="M101 165 125 167 118 213 105 233 78 233 84 220 91 192Z M131 167 156 165 166 192 171 220 178 233 151 233 137 213Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M93 205 116 208 M140 208 164 205" fill="none" stroke="#c2b3eb" stroke-width="1.65"/></g><g id="body"><path d="M94 104 129 112 161 104 177 135 155 165 155 184 128 197 101 184 101 165 79 135Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M101 117 129 129 155 117 162 134 146 158 129 164 110 156 95 134Z" fill="#291f43" stroke="#101321" stroke-width="2.5"/><path d="M104 139 129 153 153 139 M108 166 129 176 150 166 M108 178 129 189 150 178" fill="none" stroke="#c2b3eb" stroke-width="1.65"/><path d="M128 131 l4.48 7 -4.48 7 -4.48 -7Z" fill="#acfbe1" stroke="none" stroke-width="2.5"/></g><g id="arms"><path d="M77 132 92 143 83 175 66 184 55 171Z M179 132 164 143 173 175 190 184 201 171Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M91 110 76 113 59 146 83 147 107 122Z M165 110 180 113 197 146 173 147 149 122Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/></g><g id="head"><path d="M101 86 106 58 128 36 151 57 158 85 146 107 129 116 111 106Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M103 77 128 72 154 77 148 96 129 107 109 97Z" fill="#291f43" stroke="#101321" stroke-width="2.5"/><path d="M108 81 125 84 121 89 109 86Z M148 81 132 84 136 89 147 86Z" fill="#acfbe1" stroke="none" stroke-width="2.5"/></g><g id="weapon"><path d="M49 161 24 109 48 120 67 150 70 177 62 182Z M188 148 214 113 236 104 217 148 197 174 183 171Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M35 120 58 153 M194 153 222 116" fill="none" stroke="#c2b3eb" stroke-width="1.65"/></g></g>
+</svg>

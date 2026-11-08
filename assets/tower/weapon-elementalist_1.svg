@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">訓練魔導書</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#e0bea0"/><stop offset=".38" stop-color="#84654d"/><stop offset="1" stop-color="#392d36"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#84654d" stop-opacity=".62"/><stop offset="1" stop-color="#84654d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="97" fill="none" stroke="#e0bea0" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="42 22"/><g id="tome"><path d="M24 57 71 38 128 59 185 38 232 57 221 188 172 177 128 206 84 177 35 188Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M40 67 71 52 122 71 122 187 84 162 48 172Z M216 67 185 52 134 71 134 187 172 162 208 172Z" fill="#392d36" stroke="#101321" stroke-width="2.5"/><path d="M60 84 104 98 M60 102 104 117 M63 122 102 135 M196 84 152 98 M196 102 152 117 M193 122 154 135" fill="none" stroke="#e0bea0" stroke-width="1.65"/><path d="M128 55 l7.68 12 -7.68 12 -7.68 -12Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/><path d="M110 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ffd6a0" stroke="none" stroke-width="2.5"/></g></g>
+</svg>

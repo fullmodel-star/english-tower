@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title">
+  <title id="title">噬魂堡壘拳套</title>
+  <defs>
+    <linearGradient id="metal" x2=".82" y2="1">
+      <stop offset="0" stop-color="#d3b1fa"/><stop offset=".38" stop-color="#7450a0"/><stop offset="1" stop-color="#302044"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#7450a0" stop-opacity=".62"/><stop offset="1" stop-color="#7450a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#aura)"/>
+  <g stroke-linejoin="round" stroke-linecap="round"><circle cx="128" cy="128" r="105" fill="none" stroke="#d3b1fa" stroke-opacity=".48" stroke-width="1.5" stroke-dasharray="30 7 2 7"/><path d="M33 76 l3.84 6 -3.84 6 -3.84 -6Z" fill="#ead0ff" stroke="none" stroke-width="2.5"/><path d="M222 167 l3.84 6 -3.84 6 -3.84 -6Z" fill="#ead0ff" stroke="none" stroke-width="2.5"/><g id="gauntlet"><path d="M63 220 48 174 53 127 70 111 67 69 86 43 103 54 119 30 139 42 153 30 174 43 193 65 193 103 205 128 192 179 172 221 128 239Z" fill="url(#metal)" stroke="#101321" stroke-width="2.5"/><path d="M64 130 86 105 129 116 169 104 190 128 177 157 128 172 77 157Z" fill="#302044" stroke="#101321" stroke-width="2.5"/><path d="M86 55 85 97 M120 42 117 92 M153 43 150 92 M179 59 176 99 M82 180 128 195 175 180" fill="none" stroke="#d3b1fa" stroke-width="1.65"/><path d="M128 128 l9.6 15 -9.6 15 -9.6 -15Z" fill="#ead0ff" stroke="none" stroke-width="2.5"/></g><g id="mark"><path d="M92 242 l1.92 3 -1.92 3 -1.92 -3Z" fill="#ead0ff" stroke="none" stroke-width="2.5"/></g></g>
+</svg>
